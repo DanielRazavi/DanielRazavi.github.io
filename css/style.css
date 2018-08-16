@@ -1,0 +1,92 @@
+body{
+	background-color:#ffffff;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.6em;
+}
+
+.box{
+    /* margin: auto; */
+    background-color: rgba(255,255,255,0.5);
+    padding: 40px;
+    max-width: 600px;
+
+    border-radius: 15px;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.3s;
+    animation-fill-mode: backwards;
+
+}
+
+
+.box:hover a{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+    color: #b7b7b7;
+}
+
+.box a{
+    font-size: 12px;
+    text-decoration: none;
+    color: transparent;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+.box:hover{
+    background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    color: #b7b7b7;
+}
+
+
+
+.main{
+    margin: 200px auto 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15px;
+}
+
+
+.navbar{
+    margin: auto;
+    display: table;
+    position: sticky;
+    margin-top:30px;
+    bottom: 20px;
+    width: 100px;
+    table-layout: fixed;
+
+    transition-property: box-shadow, background-color, width;
+    transition-duration: 1s,1s,0.7s;
+    transition-delay: 0s,0s,1s;
+}
+
+.navbar a{
+    display: table-cell;
+    text-align: center;
+}
+
+.navbar:hover{
+    transition-property: box-shadow, background-color, width;
+    transition-duration: 1s,1s,0.7s;
+    transition-delay: 0.7s,0.7s,0s;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+}
