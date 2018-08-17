@@ -51,7 +51,9 @@ img {
     display: table;
     position: sticky;
     margin-top:30px;
+
 	bottom: 20px;
+
     width: 100px;
     table-layout: fixed;
 
@@ -100,12 +102,15 @@ img {
 	}
 
 	.navbar{
+		height: 100%;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+
 		margin: auto;
 		width: 80%;
 		background-color: #ffffff;
-		bottom: 20px;
-		margin-top:30px;
 
+		margin-top:30px;
 	}
 
 	.box a{
