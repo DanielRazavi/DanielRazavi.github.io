@@ -123,25 +123,19 @@ img {
 }
 
 .download{
+
 	margin: auto;
+	margin-top: 30px;
 	/* text-align: center; */
 
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 70%;
-}
+	width: 560px; /* you have to have a size or this method doesn't work */
+   	height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
 
+	margin: auto; /* make em equal */
+}
 
 @media only screen and (max-width: 768px) {
 

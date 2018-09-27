@@ -1,0 +1,44 @@
+I still don't know much about web development and how I can put the youtube video player onto my site (I've just started learning web dev, so I do apologize).
+
+Here are some the youtube Videos I recommended in my Presentation and more. Hopefully this helps you. :)
+
+
+
+
+
+Title: 
+Proof by induction | Sequences, series and induction | Precalculus | Khan Academy
+
+Link:
+https://www.youtube.com/watch?v=wblW_M_HVQ8
+
+
+
+
+Title:
+Proof by Mathematical Induction - How to do a Mathematical Induction Proof ( Example 1 ) and (Example 2)
+
+Link:
+	Example 1:
+	https://www.youtube.com/watch?v=dMn5w4_ztSw
+	
+	Example 2:
+	https://www.youtube.com/watch?v=twA6vZgX_U4
+
+
+
+
+Title:
+Strong Induction
+
+Link:
+https://www.youtube.com/watch?v=rfA0h9udl7E
+
+
+
+
+Title:
+Intro to Strong Induction.mp4
+
+Link:
+https://www.youtube.com/watch?v=ML-g2xLYruE
