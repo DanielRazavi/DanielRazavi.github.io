@@ -6,11 +6,14 @@ body{
 	line-height:1.6em;
 }
 
+/*  Simple Band Aid Issue until I can finish the actual .hint */
 .hintOne{
 	color: #dbdbdb;
 	margin: 100px auto 0px;
 	text-align: center;
 }
+
+/*  Complete framwork of all boxes used on my website*/
 .box{
     background-color: rgba(255,255,255,0.5);
     padding: 40px;
@@ -28,7 +31,43 @@ body{
     animation-fill-mode: backwards;
 
 }
+.box:hover{
+    background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    color: #b7b7b7;
+}
+.box a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff00;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+.box:hover a{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+    color: #b7b7b7;
+}
 
+.box:hover .hint{
+	transition-property: color;
+    transition-duration: 0.7s;
+    transition-delay: 0.0s;
+	color: #ffffff00;
+}
+.box:hover ::placeholder{
+	color: #e5e5e5;
+}
+.box:hover input[type=submit]{
+	color: #e0e0e0;
+}
+.box:hover input[type=submit]:hover{
+	background-color: #e0e0e0;
+	color: #ffffff;}
+
+/* Hints for before hovering */
 .hint{
 	font-size: 24px;
 	color: #dbdbdb;
@@ -49,15 +88,6 @@ body{
 	/* line-height: 110px; */
 }
 
-.box a{
-    font-size: 12px;
-    text-decoration: none;
-    color: transparent;
-    transition-property: color;
-    transition-duration: 0.3s;
-    transition-delay: 0s;
-}
-
 img {
     display: block;
     margin-left: auto;
@@ -66,6 +96,7 @@ img {
     border-radius: 15px;
 }
 
+/*  The stock navigation bar of the entire website */
 .navbar{
     margin: auto;
     display: table;
@@ -81,12 +112,10 @@ img {
     transition-duration: 1s,1s,0.7s;
     transition-delay: 0s,0s,1s;
 }
-
 .navbar a{
     display: table-cell;
     text-align: center;
 }
-
 .navbar:hover{
     transition-property: box-shadow, background-color, width;
     transition-duration: 1s,1s,0.7s;
@@ -96,32 +125,50 @@ img {
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
 }
 
-.box:hover{
-    background-color: #ffffff;
-    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
-    color: #b7b7b7;
-}
+/*  Email Forms */
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	/*  Animation Needed Here */
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	background-color: #ffffff00;
+	box-sizing: border-box;
+	text-align: center;
+	color: #e0e0e0
 
-.box:hover .hint{
+
+}
+input[type=submit] {
+    width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+    background-color: #ffffff00;
+
+    color: #ffffff00;
+    cursor: pointer;
+
+	transition-property: color, background-color;
+    transition-duration: 1s, 1s;
+    transition-delay: 0.7s, 0.7;
+}
+input::placeholder {
+	text-align: center;
+  	color: #ffffff00;
+
 	transition-property: color;
-    transition-duration: 0.7s;
-    transition-delay: 0.0s;
-	color: #ffffff00;
-}
-
-
-.box:hover a{
-    transition-property: color;
     transition-duration: 1s;
-    transition-delay: 0.7s;
-    color: #b7b7b7;
+    transition-delay: 0.3s;
 }
 
+/*  Others */
 .main{
 	margin: 100px auto 50px;
 	text-align: center;
 }
-
 .download{
 
 	margin: auto;
@@ -129,7 +176,6 @@ img {
 	/* text-align: center; */
 
 }
-
 .container {
 	width: 560px; /* you have to have a size or this method doesn't work */
    	height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
@@ -150,7 +196,9 @@ img {
 		padding: 25px;
 		font-size: 12px;
         color:#b7b7b7 ;
+		pointer-events: none;
     }
+
 	.box h1{
 		line-height: normal;
 	}
@@ -177,5 +225,17 @@ img {
 
 	img{
 		width: 90%;
+	}
+
+	input[type=submit]{
+		width: 85%;
+	    background-color: #e0e0e0;
+		color: #ffffff;
+	}
+	input[type=text] {
+	    width: 85%;
+	}
+	.box:hover input[type=submit]{
+		color: #ffffff;
 	}
 }
