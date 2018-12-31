@@ -11,6 +11,7 @@ body{
 	margin: 100px auto 0px;
 	text-align: center;
 }
+
 .box{
     background-color: rgba(255,255,255,0.5);
     padding: 40px;
@@ -30,23 +31,13 @@ body{
 }
 
 .hint{
-	font-size: 24px;
 	color: #dbdbdb;
 	position:absolute;
-	/* vertically centering */
-
-	border-top: 50%;
-	border-bottom: 50%;
-	/* horizontally centering */
-	left: 0;
-	right: 0;
-	margin: auto;
 
 	transition-property: color;
     transition-duration: 0.7s;
     transition-delay: 1.0s;
-
-	/* line-height: 110px; */
+	animation-fill-mode: backwards;
 }
 
 .box a{
@@ -69,6 +60,7 @@ img {
 .navbar{
     margin: auto;
     display: table;
+	position: -webkit-sticky;
     position: sticky;
     margin-top:30px;
 
@@ -106,9 +98,8 @@ img {
 	transition-property: color;
     transition-duration: 0.7s;
     transition-delay: 0.0s;
-	color: #ffffff00;
+	color: transparent;
 }
-
 
 .box:hover a{
     transition-property: color;
@@ -122,12 +113,10 @@ img {
 	text-align: center;
 }
 
-.download{
-
+.course{
 	margin: auto;
 	margin-top: 30px;
 	/* text-align: center; */
-
 }
 
 .container {
@@ -143,14 +132,8 @@ img {
   opacity: 0.5;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 768px) {
-
-	.hintOne{
-		color: transparent;
-
-		margin: 50px auto 0px;
-		text-align: center;
-	}
 
     .box {
 		margin: 50px auto 0px;
@@ -162,7 +145,6 @@ img {
 	.box h1{
 		line-height: normal;
 	}
-
 	.navbar{
 		height: 100%;
 		overflow-y: scroll;
@@ -174,16 +156,16 @@ img {
 
 		margin-top:30px;
 	}
-
 	.navbar:hover{
 		width: 80%;
 	}
-
 	.box a{
 		color: #b7b7b7;
 	}
-
 	img{
 		width: 90%;
+	}
+	.hint{
+		color: transparent;
 	}
 }
