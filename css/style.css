@@ -109,7 +109,7 @@ img {
 }
 
 .main{
-	margin: 100px auto 50px;
+	margin: 15% auto 15%;
 	text-align: center;
 }
 
@@ -133,8 +133,7 @@ img {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 1025px) {
     .box {
 		margin: 50px auto 0px;
 		width: 90%;
