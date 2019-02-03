@@ -6,6 +6,13 @@ body{
 	line-height:1.6em;
 }
 
+.hidden {
+	visibility: hidden;
+	position: fixed;
+
+}
+
+/* Still needs further research */
 .linkedin {
 	width: 53%;
 	margin: 0px auto;
