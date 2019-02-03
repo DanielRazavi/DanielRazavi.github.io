@@ -6,6 +6,11 @@ body{
 	line-height:1.6em;
 }
 
+.linkedin {
+	width: 53%;
+	margin: 0px auto;
+}
+
 .disable_text_highlighting {
 -webkit-touch-callout: none;
 -webkit-user-select: none; /* Webkit */
