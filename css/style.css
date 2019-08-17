@@ -6,21 +6,43 @@ body{
 	line-height:1.6em;
 }
 
-/*  Simple Band Aid Issue until I can finish the actual .hint */
+.hidden {
+	visibility: hidden;
+	position: fixed;
+
+}
+
+/* Still needs further research */
+.linkedin {
+	width: 53%;
+	margin: 0px auto;
+}
+
+.disable_text_highlighting {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; /* Webkit */
+	-moz-user-select: none;    /* Firefox */
+	-ms-user-select: none;     /* IE 10  */
+	/* Currently not supported in Opera but will be soon */
+	-o-user-select: none;
+	user-select: none;
+}
+
 .hintOne{
-	color: #dbdbdb;
+	color: #999999;
+
 	margin: 100px auto 0px;
 	text-align: center;
 }
 
-/*  Complete framwork of all boxes used on my website*/
 .box{
     background-color: rgba(255,255,255,0.5);
     padding: 40px;
     max-width: 600px;
 
     border-radius: 15px;
-    border-color: #e0e0e0;
+	border-color: #999999;
+
     border-style: solid;
     border-width: 1px;
     box-sizing: border-box;
@@ -69,23 +91,14 @@ body{
 
 /* Hints for before hovering */
 .hint{
-	font-size: 24px;
-	color: #dbdbdb;
-	position:absolute;
-	/* vertically centering */
+	color: #999999;
 
-	border-top: 50%;
-	border-bottom: 50%;
-	/* horizontally centering */
-	left: 0;
-	right: 0;
-	margin: auto;
+	position:absolute;
 
 	transition-property: color;
     transition-duration: 0.7s;
     transition-delay: 1.0s;
-
-	/* line-height: 110px; */
+	animation-fill-mode: backwards;
 }
 
 img {
@@ -96,10 +109,15 @@ img {
     border-radius: 15px;
 }
 
-/*  The stock navigation bar of the entire website */
+.icon{
+	padding-right: 10px;
+	width: 100px;
+}
+
 .navbar{
     margin: auto;
     display: table;
+	position: -webkit-sticky;
     position: sticky;
     margin-top:30px;
 
@@ -137,9 +155,21 @@ input[type=text] {
 	box-sizing: border-box;
 	text-align: center;
 	color: #e0e0e0
-
-
 }
+
+.box:hover{
+    background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    color: #999999;
+}
+
+.box:hover .hint{
+	transition-property: color;
+    transition-duration: 0.7s;
+    transition-delay: 0.0s;
+	color: transparent;
+}
+
 input[type=submit] {
     width: 50%;
 	padding: 12px 20px;
@@ -147,7 +177,6 @@ input[type=submit] {
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;
     background-color: #ffffff00;
-
     color: #ffffff00;
     cursor: pointer;
 
@@ -155,6 +184,7 @@ input[type=submit] {
     transition-duration: 1s, 1s;
     transition-delay: 0.7s, 0.7;
 }
+
 input::placeholder {
 	text-align: center;
   	color: #ffffff00;
@@ -164,17 +194,29 @@ input::placeholder {
     transition-delay: 0.3s;
 }
 
+.box:hover a{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+    color: #999999;
+}
+
 /*  Others */
 .main{
-	margin: 100px auto 50px;
+	margin: 15% auto 15%;
 	text-align: center;
 }
 .download{
-
 	margin: auto;
 	margin-top: 30px;
 	/* text-align: center; */
+}
 
+.course{
+	min-height: 200px;
+	margin: auto;
+	margin-top: 30px;
+	/* text-align: center; */
 }
 .container {
 	width: 560px; /* you have to have a size or this method doesn't work */
@@ -183,26 +225,27 @@ input::placeholder {
 	margin: auto; /* make em equal */
 }
 
-@media only screen and (max-width: 768px) {
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
 
-	.hintOne{
-		margin: 50px auto 0px;
-		text-align: center;
-	}
+@media only screen and (max-width: 1025px) {
 
     .box {
 		margin: 50px auto 0px;
 		width: 90%;
 		padding: 25px;
 		font-size: 12px;
-        color:#b7b7b7 ;
+        color:#999999 ;
 		pointer-events: none;
     }
 
 	.box h1{
 		line-height: normal;
 	}
-
 	.navbar{
 		height: 100%;
 		overflow-y: scroll;
@@ -214,15 +257,12 @@ input::placeholder {
 
 		margin-top:30px;
 	}
-
 	.navbar:hover{
 		width: 80%;
 	}
-
 	.box a{
-		color: #b7b7b7;
+		color: #999999;
 	}
-
 	img{
 		width: 90%;
 	}
@@ -237,5 +277,9 @@ input::placeholder {
 	}
 	.box:hover input[type=submit]{
 		color: #ffffff;
+	}
+
+	.hint{
+		color: transparent;
 	}
 }
