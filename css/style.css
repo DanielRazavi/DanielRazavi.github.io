@@ -46,6 +46,7 @@ body{
     font-size: 12px;
     text-decoration: none;
     color: #ffffff00;
+
     transition-property: color;
     transition-duration: 0.3s;
     transition-delay: 0s;
@@ -62,18 +63,72 @@ body{
     transition-delay: 0.0s;
 	color: #ffffff00;
 }
-.box:hover ::placeholder{
-
-	/* This is for the "form placeholder"'s colour that changes when the BOX is hovered */
+.box:hover input[type=text]{
 	color: #999999;
 }
-
+.box:hover input[type=text]::placeholder{
+	color: #999999;
+}
 .box:hover input[type=submit]{
-	color: #e0e0e0;
+	color: #999999;
 }
 .box:hover input[type=submit]:hover{
-	background-color: #e0e0e0;
-	color: #ffffff;}
+	background-color: #999999;
+	color: #ffffff;
+}
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid #999999;
+	border-radius: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #999999;
+
+	transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+}
+input[type=text]::placeholder {
+  	color: #ffffff00;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-delay: 0s;
+}
+input[type=submit] {
+    width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid #999999;
+	border-radius: 8px;
+    background-color: #ffffff00;
+    color: #ffffff00;
+    cursor: pointer;
+
+	transition-property: color, background-color;
+    transition-duration: 0.6s, 0.6s;
+    transition-delay: 0.3s, 0.3s;
+}
+
+
+.box:hover{
+    background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    color: #999999;
+}
+.box:hover .hint{
+	transition-property: color;
+    transition-duration: 0.7s;
+    transition-delay: 0.0s;
+	color: transparent;
+}
+.box:hover a{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+    color: #999999;
+}
 .hint{
 	color: #999999;
 
@@ -122,57 +177,6 @@ img {
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
-}
-input[type=text] {
-	width: 50%;
-	padding: 12px 20px;
-	margin: 15px 0;
-	/*  Animation Needed Here */
-	border: 1px solid #e0e0e0;
-	border-radius: 8px;
-	background-color: #ffffff00;
-	box-sizing: border-box;
-	text-align: center;
-	color: #e0e0e0
-}
-.box:hover{
-    background-color: #ffffff;
-    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
-    color: #999999;
-}
-.box:hover .hint{
-	transition-property: color;
-    transition-duration: 0.7s;
-    transition-delay: 0.0s;
-	color: transparent;
-}
-input[type=submit] {
-    width: 50%;
-	padding: 12px 20px;
-	margin: 15px 0;
-	border: 1px solid #e0e0e0;
-	border-radius: 8px;
-    background-color: #ffffff00;
-    color: #ffffff00;
-    cursor: pointer;
-
-	transition-property: color, background-color;
-    transition-duration: 1s, 1s;
-    transition-delay: 0.7s, 0.7;
-}
-input::placeholder {
-	text-align: center;
-  	color: #ffffff00;
-
-	transition-property: color;
-    transition-duration: 1s;
-    transition-delay: 0.3s;
-}
-.box:hover a{
-    transition-property: color;
-    transition-duration: 1s;
-    transition-delay: 0.7s;
-    color: #999999;
 }
 .main{
 	margin: 15% auto 15%;
