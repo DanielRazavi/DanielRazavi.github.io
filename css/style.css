@@ -5,19 +5,6 @@ body{
 	font-size:12px;
 	line-height:1.6em;
 }
-
-.hidden {
-	visibility: hidden;
-	position: fixed;
-
-}
-
-/* Still needs further research */
-.linkedin {
-	width: 53%;
-	margin: 0px auto;
-}
-
 .disable_text_highlighting {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none; /* Webkit */
@@ -27,14 +14,11 @@ body{
 	-o-user-select: none;
 	user-select: none;
 }
-
-.hintOne{
+.no_box_mid_txt{
 	color: #999999;
-
 	margin: 100px auto 0px;
 	text-align: center;
 }
-
 .box{
     background-color: rgba(255,255,255,0.5);
     padding: 40px;
@@ -72,7 +56,6 @@ body{
     transition-delay: 0.7s;
     color: #b7b7b7;
 }
-
 .box:hover .hint{
 	transition-property: color;
     transition-duration: 0.7s;
@@ -80,16 +63,17 @@ body{
 	color: #ffffff00;
 }
 .box:hover ::placeholder{
-	color: #e5e5e5;
+
+	/* This is for the "form placeholder"'s colour that changes when the BOX is hovered */
+	color: #999999;
 }
+
 .box:hover input[type=submit]{
 	color: #e0e0e0;
 }
 .box:hover input[type=submit]:hover{
 	background-color: #e0e0e0;
 	color: #ffffff;}
-
-/* Hints for before hovering */
 .hint{
 	color: #999999;
 
@@ -100,7 +84,6 @@ body{
     transition-delay: 1.0s;
 	animation-fill-mode: backwards;
 }
-
 img {
     display: block;
     margin-left: auto;
@@ -108,12 +91,10 @@ img {
     width: 50%;
     border-radius: 15px;
 }
-
 .icon{
 	padding-right: 10px;
 	width: 100px;
 }
-
 .navbar{
     margin: auto;
     display: table;
@@ -142,8 +123,6 @@ img {
     background-color: #ffffff;
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
 }
-
-/*  Email Forms */
 input[type=text] {
 	width: 50%;
 	padding: 12px 20px;
@@ -156,20 +135,17 @@ input[type=text] {
 	text-align: center;
 	color: #e0e0e0
 }
-
 .box:hover{
     background-color: #ffffff;
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
     color: #999999;
 }
-
 .box:hover .hint{
 	transition-property: color;
     transition-duration: 0.7s;
     transition-delay: 0.0s;
 	color: transparent;
 }
-
 input[type=submit] {
     width: 50%;
 	padding: 12px 20px;
@@ -184,7 +160,6 @@ input[type=submit] {
     transition-duration: 1s, 1s;
     transition-delay: 0.7s, 0.7;
 }
-
 input::placeholder {
 	text-align: center;
   	color: #ffffff00;
@@ -193,15 +168,12 @@ input::placeholder {
     transition-duration: 1s;
     transition-delay: 0.3s;
 }
-
 .box:hover a{
     transition-property: color;
     transition-duration: 1s;
     transition-delay: 0.7s;
     color: #999999;
 }
-
-/*  Others */
 .main{
 	margin: 15% auto 15%;
 	text-align: center;
@@ -211,7 +183,6 @@ input::placeholder {
 	margin-top: 30px;
 	/* text-align: center; */
 }
-
 .course{
 	min-height: 200px;
 	margin: auto;
@@ -224,7 +195,6 @@ input::placeholder {
 
 	margin: auto; /* make em equal */
 }
-
 .isDisabled {
   color: currentColor;
   cursor: not-allowed;
