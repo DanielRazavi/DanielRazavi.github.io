@@ -252,7 +252,6 @@ img {
 		padding: 25px;
 		font-size: 12px;
         color:#999999 ;
-		pointer-events: none;
     }
 	.box a{
 		color: #999999;
@@ -273,7 +272,6 @@ img {
 		transition-property: color;
 	    transition-duration: 0.7s;
 	    transition-delay: 1.0s;
-		animation-fill-mode: backwards;
 	}
 	.box h1{
 		line-height: normal;
@@ -285,7 +283,7 @@ img {
 		-webkit-overflow-scrolling: touch;
 
 		margin: auto;
-		width: 80%;
+		width: 60%;
 		background-color: #ffffff;
 
 		margin-top:30px;
