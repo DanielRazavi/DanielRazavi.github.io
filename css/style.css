@@ -219,11 +219,27 @@ img {
 	margin: auto;
 	margin-top: 30px;
 }
+
+.mail_err_msg{
+	color: #ffffff00;
+	margin: 100px auto 0px;
+	text-align: center;
+
+	transition-property: color;
+	transition-duration: 0.7s;
+	transition-delay: 0s;
+}
 .mail_sub{
-	margin: 7.5% auto 0%;
+	margin: 7.5% auto -2.5%;
 	text-align: center;
 }
+.mail_sub:hover + .mail_err_msg{
+	color: #999999;
 
+	transition-property: color;
+	transition-duration: 1.7s;
+	transition-delay: 1s;
+}
 @media only screen and (max-width: 1025px) {
 
 	img{
@@ -278,4 +294,11 @@ img {
 		width: 80%;
 	}
 
+	.mail_err_msg{
+		color: #999999;
+	}
+	.mail_sub{
+		margin: 7.5% auto -5%;
+		text-align: center;
+	}
 }
