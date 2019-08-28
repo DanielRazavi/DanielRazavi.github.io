@@ -1,7 +1,7 @@
 /* Global Attributes */
 body{
-	background-color:#ffffff;
-	color:#ffffff;
+	background-color:#ffffff00;
+	color:#ffffff00;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	line-height:1.6em;
@@ -51,16 +51,18 @@ img {
     border-width: 1px;
     box-sizing: border-box;
 
-    transition-property: all;
-    transition-duration: 1s;
-    transition-delay: 0.3s;
-    animation-fill-mode: backwards;
-
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
 }
 .box:hover{
     background-color: #ffffff;
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
     color: #999999;
+
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
 }
 
 .box a{
@@ -73,10 +75,18 @@ img {
     transition-delay: 0s;
 }
 .box:hover a{
-    transition-property: color;
-    transition-duration: 1s;
-    transition-delay: 0.7s;
     color: #999999;
+
+	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 0.7s;
+}
+.box:hover a:hover{
+	color: #cfcfcf;
+
+	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
 }
 
 .box input[type=text] {
@@ -95,16 +105,25 @@ img {
 }
 .box:hover input[type=text]{
 	color: #999999;
+
+	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 0.7s;
 }
 
 .box input[type=text]::placeholder {
   	color: #ffffff00;
+
 	transition-property: color;
 	transition-duration: 0.3s;
 	transition-delay: 0s;
 }
 .box:hover input[type=text]::placeholder{
 	color: #999999;
+
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-delay: 0s;
 }
 
 .box input[type=submit] {
@@ -123,27 +142,34 @@ img {
 }
 .box:hover input[type=submit]{
 	color: #999999;
+
+	transition-property: color;
+	transition-duration: 0.6s;
+	transition-delay: 0.3s;
 }
 .box:hover input[type=submit]:hover{
 	background-color: #999999;
 	color: #ffffff;
+
+	transition-property: color, background-color;
+	transition-duration: 0.6s, 0.6s;
+	transition-delay: 0.3s, 0.3s;
 }
 
 .box .hint{
 	color: #999999;
-
 	position:absolute;
 
 	transition-property: color;
     transition-duration: 0.7s;
     transition-delay: 1.0s;
-	animation-fill-mode: backwards;
 }
 .box:hover .hint{
+	color: #ffffff00;
+
 	transition-property: color;
 	transition-duration: 0.7s;
 	transition-delay: 0.0s;
-	color: #ffffff00;
 }
 
 /* CSS for Beta/New/Undecided features */
@@ -174,12 +200,13 @@ img {
     text-align: center;
 }
 .navbar:hover{
-    transition-property: box-shadow, background-color, width;
-    transition-duration: 1s,1s,0.7s;
-    transition-delay: 0.7s,0.7s,0s;
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+
+	transition-property: box-shadow, background-color, width;
+	transition-duration: 1s,1s,0.7s;
+	transition-delay: 0.7s,0.7s,0s;
 }
 
 /* Specific Box Instances */
