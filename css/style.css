@@ -272,7 +272,11 @@ img {
 	}
 	.box input[type=text] {
 		width: 85%;
-		background-color: #999999;
+		background-color: black;
+		color: white;
+	}
+	.box input[type=text]::placeholder {
+	  	color: #999999;
 	}
 	.box input[type=submit]{
 		-webkit-appearance: none;
@@ -312,15 +316,41 @@ img {
 		text-align: center;
 	}
 
-	.box:hover a{}
-	.box:hover a:hover{}
-	.box:hover input[type=text]{}
-	.box:hover input[type=text]::placeholder{}
-	.box:hover input[type=submit]{}
-	.box:hover input[type=submit]:hover{}
-	.box:hover .hint{}
-	.navbar:hover{}
-	.mail_sub:hover + .mail_err_msg{}
+	/* Eliminating mouse hover */
+	.box:hover{
+		background-color: #4a4a4a;
+		color: white;
+	}
+	.box:hover a{
+		color: white;
+	}
+	.box:hover a:hover{
+		color: white;
+	}
+	.box:hover input[type=text]{
+		border: 1px solid #999999;
+		color: #999999;
+	}
+	.box:hover input[type=text]::placeholder{
+		color: #999999;
+	}
+	.box:hover input[type=submit]{
+		color: white;
+	}
+	.box:hover input[type=submit]:hover{
+		background-color: #363636;
+		color: white;
+	}
+	.box:hover .hint{
+		color: #ffffff00;
+	}
+	.navbar:hover{
+		width: 80%;
+	    background-color: #4a4a4a;
+	}
+	.mail_sub:hover + .mail_err_msg{
+		color: white;
+	}
 
 
 
