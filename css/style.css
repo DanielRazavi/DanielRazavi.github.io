@@ -103,14 +103,14 @@ img {
 	text-align: center;
 	color: #999999;
 
-	transition-property: color;
+	transition-property: all;
     transition-duration: 1s;
     transition-delay: 0.7s;
 }
 .box:hover input[type=text]{
 	color: #999999;
 
-	transition-property: color;
+	transition-property: all;
 	transition-duration: 1s;
 	transition-delay: 0.7s;
 }
