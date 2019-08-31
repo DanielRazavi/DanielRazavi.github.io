@@ -5,6 +5,10 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	line-height:1.6em;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
 }
 img {
     display: block;
@@ -99,14 +103,14 @@ img {
 	text-align: center;
 	color: #999999;
 
-	transition-property: color;
+	transition-property: all;
     transition-duration: 1s;
     transition-delay: 0.7s;
 }
 .box:hover input[type=text]{
 	color: #999999;
 
-	transition-property: color;
+	transition-property: all;
 	transition-duration: 1s;
 	transition-delay: 0.7s;
 }
@@ -244,6 +248,13 @@ img {
 }
 @media only screen and (max-width: 1025px) {
 
+	body{
+		background-color:black;
+		color:#ffffff00;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:1.6em;
+	}
 	img{
 		width: 90%;
 	}
@@ -253,18 +264,24 @@ img {
 		width: 90%;
 		padding: 25px;
 		font-size: 12px;
-        color:#999999 ;
+		background-color: #4a4a4a;
+        color: white ;
     }
 	.box a{
-		color: #999999;
+		color: white;
 	}
 	.box input[type=text] {
 		width: 85%;
+		background-color: black;
+		color: white;
+	}
+	.box input[type=text]::placeholder {
+	  	color: #999999;
 	}
 	.box input[type=submit]{
 		-webkit-appearance: none;
 		width: 85%;
-		background-color: #999999;
+		background-color: #363636;
 		color: #ffffff;
 	}
 	.box .hint{
@@ -287,19 +304,54 @@ img {
 
 		margin: auto;
 		width: 80%;
-		background-color: #ffffff;
+		background-color: #4a4a4a;
 
 		margin-top:30px;
 	}
-	.navbar:hover{
-		width: 80%;
-	}
-
 	.mail_err_msg{
-		color: #999999;
+		color: white;
 	}
 	.mail_sub{
 		margin: 7.5% auto -5%;
 		text-align: center;
 	}
+
+	/* Eliminating mouse hover */
+	.box:hover{
+		background-color: #4a4a4a;
+		color: white;
+	}
+	.box:hover a{
+		color: white;
+	}
+	.box:hover a:hover{
+		color: white;
+	}
+	.box:hover input[type=text]{
+		border: 1px solid #999999;
+		color: #999999;
+	}
+	.box:hover input[type=text]::placeholder{
+		color: #999999;
+	}
+	.box:hover input[type=submit]{
+		color: white;
+	}
+	.box:hover input[type=submit]:hover{
+		background-color: #363636;
+		color: white;
+	}
+	.box:hover .hint{
+		color: #ffffff00;
+	}
+	.navbar:hover{
+		width: 80%;
+	    background-color: #4a4a4a;
+	}
+	.mail_sub:hover + .mail_err_msg{
+		color: white;
+	}
+
+
+
 }
