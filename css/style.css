@@ -1,7 +1,7 @@
 /* Global Attributes */
 body{
-	background-color:#ffffff00;
-	color:#ffffff00;
+	background-color: transparent;
+	color: transparent;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	line-height:1.6em;
@@ -72,7 +72,7 @@ img {
 .box a{
     font-size: 12px;
     text-decoration: none;
-    color: #ffffff00;
+    color:  transparent;
 
     transition-property: color;
     transition-duration: 0.3s;
@@ -116,7 +116,7 @@ img {
 }
 
 .box input[type=text]::placeholder {
-  	color: #ffffff00;
+  	color:  transparent;
 
 	transition-property: color;
 	transition-duration: 0.3s;
@@ -137,8 +137,8 @@ img {
 	margin: 15px 0;
 	border: 1px solid #999999;
 	border-radius: 8px;
-    background-color: #ffffff00;
-    color: #ffffff00;
+    background-color:  transparent;
+    color:  transparent;
     cursor: pointer;
 
 
@@ -171,7 +171,7 @@ img {
     transition-delay: 1.0s;
 }
 .box:hover .hint{
-	color: #ffffff00;
+	color:  transparent;
 
 	transition-property: color;
 	transition-duration: 0.7s;
@@ -227,7 +227,7 @@ img {
 }
 
 .mail_err_msg{
-	color: #ffffff00;
+	color:  transparent;
 	margin: 100px auto 0px;
 	text-align: center;
 
@@ -252,7 +252,7 @@ img {
 
 	body{
 		background-color:black;
-		color:#ffffff00;
+		color: transparent;
 		font-family:Arial, Helvetica, sans-serif;
 		font-size:12px;
 		line-height:1.6em;
@@ -287,7 +287,7 @@ img {
 		color: #ffffff;
 	}
 	.box .hint{
-		color: #ffffff00;
+		color:  transparent;
 
 		position:absolute;
 
@@ -344,7 +344,7 @@ img {
 		color: white;
 	}
 	.box:hover .hint{
-		color: #ffffff00;
+		color:  transparent;
 	}
 	.navbar:hover{
 		width: 80%;
