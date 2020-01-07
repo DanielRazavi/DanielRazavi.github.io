@@ -248,8 +248,8 @@ img {
 }
 
 /* 700px for phones only now since iPadOS will act like Desktop now. */
-@media only screen and (max-width: 700px) {
-
+/* @media only screen and (max-width: 700px) { */
+@media (hover: none) and (pointer: coarse) {
 	body{
 		background-color:black;
 		color: transparent;
