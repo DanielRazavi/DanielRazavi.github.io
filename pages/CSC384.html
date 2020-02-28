@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="../tab-icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../tab-icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../tab-icon/favicon-16x16.png">
+	<link rel="manifest" href="../tab-icon/site.webmanifest">
+	<link rel="mask-icon" href="../tab-icon/safari-pinned-tab.svg" color="#ffc40d">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="msapplication-TileImage" content="../tab-icon/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Dan's CSC384 TA Page</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+</head>
+<body>
+
+    <div class="course box">
+    	<h1 style="font-size:4vw" class="hint disable_text_highlighting">CSC384 A1.</h1>
+
+    	<h1 class="disable_text_highlighting">CSC384 Assignment 1 Announcement.</h1>
+
+    	<p class="disable_text_highlighting">Hi guys, so a lot of people had questions regarding the marking that we did for A1. As you know, in the first 4 questions we asked the students to implement DFS, BFS, UCS and A*(with a constant heuristic) and we asked for each of those algorithms to return the actions necessary to get from point A to point B. The auto-grader that was given to you, checked your solution against what the solution should be and gave a mark based on that.</p>
+
+      <p class="disable_text_highlighting">The auto grader that we used did that AND MORE. Let there exist a test/map has only one solution, regardless of what algorithm you use, the output will always
+      be the same. So it was our task to create a marking system that will mark solutions based on more then just the list of actions. That's when it was
+      decided to also check what states your agent has visited and seen (seen= states that have been a pushed to your stack/queue/priority-queue at one time or another) to see if it is correctly traversing the states to find its solutions.</p>
+
+      <p class="disable_text_highlighting">The specific states that you have visited/seen and their specific orders are unique to the algorithm you have used, DFS, BFS, UCS and A* all have their own
+      signature visited and seen state lists, so if your algorithms were defined and created correctly, they should also share the same exact visited and seen. That's what we checked for when marking: the actual solution of the test, a list of visited states for the test, and a list of seen states for the test. Each solution needs to satisfy those conditions in order to get the 1 mark for said test. And to give more chances to your code, we also gave the implementation more tests to perform in, as it was expected.</p>
+
+      <p class="disable_text_highlighting">In order to achieve such information collection of your code, changing your code would have been something we wouldn't want our TAs to do, so we changed the functionality of the autograder.py, grade_helpers.py, game_state_handler.py and all tests so that whenever you call any function in said files, we also get a copy of what you accessed.</p>
+
+      <p class="disable_text_highlighting">Regarding questions 5 and 6, in order to mark those questions, there was no easy and pragmatic way to classify what a good/bad heuristic is so we decided to create a benchmark of what the minimum performing performance we expect is and if the student's performance is better or equal, then they are awarded the mark, and if not, they are not. We also made sure that your hueristics are marked based on a correct search_algorithm.py, so even if your A* is incorrect, your hueristics marks are not affected (hence why the autograder in the marking environment is split in half).</p>
+
+      <p class="disable_text_highlighting">The marking environment is given to you and you can try it out yourself, to see your mark (since we are not providing you with the correct search_algorithm.py code, the autograder might give you marks that are not accurate). Feel free to share any feedback you have so that if there is a concern with the marking, our team can take the necessary steps to fix or explain the situation.</p>
+
+      <a href="../files/CSC384/A1-Marking-Environment.zip" class="main disable_text_highlighting" target="_blank" download>
+        <p class="disable_text_highlighting">A1-Marking-Environment.zip</p>
+      </a>
+
+		</div>
+
+		<div class="box navbar">
+	        <a class="disable_text_highlighting" href="../index.html">Home</a>
+			    <a class="disable_text_highlighting" href="./Tutorials.html">Tutorials</a>
+		</div>
+
+</body>
+
+</html>
