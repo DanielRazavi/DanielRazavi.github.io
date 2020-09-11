@@ -1,0 +1,422 @@
+<!--  Week 2 -->
+<!--
+<div id="week02" class="course box">
+    <h1 class="disable_text_highlighting"> Week 2 - Complete and Structural Induction </h1>
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 2</h1>
+    <p class="disable_text_highlighting">Welcome back to week 2, obviously from the title you can see that we are working on Complete Induction and Structural Induction this week. In last week’s Youtube Recommendations, I made sure I put one complete induction video so whoever watched it can benefit from that, this week.</p>
+
+    <a href="https://drive.google.com/file/d/1pACxOeACIzjvmLF0fRmVIA_xzcI_PgeZ/view?usp=sharing" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://drive.google.com/open?id=1q1IpiJ2pSsWJ1WXW7l91dLyZvoiogDN7Ac7Oaf_Te7c" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+    <a href="../files/Tutorial-2/Youtube-Videos/v1.html" class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+<!--  Week 3-->
+<!--
+<div id="week03" class="course box">
+    <h1 class="disable_text_highlighting"> Week 3 - Runtime Analysis </h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 3</h1>
+
+    <p class="disable_text_highlighting">EEYYYY, we have finally reached Runtime Analaysis. Trust me when I say that this is going to come in handy in literally (almost) every single project that you'll work on in the future. It's so important that I also did your readings before making the slides, so that I don't miss anything when I want to teach this stuff. Make sure you learn this very very well. READING WEEK, HERE WE COME!!!</p>
+
+    <a href="../files/Tutorial-3/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1khCcxEw21J6W80KzYZF7WDvixrxHWGU7qnm5hWfuTbQ/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+    <a href="../files/Tutorial-3/Useful Summations.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">Useful Summations</p>
+    </a>
+
+    <a href="../files/Tutorial-3/Youtube-Videos/v1.html" class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<!--  Week 4-->
+<!--
+<div id="week04" class="course box">
+    <h1 class="disable_text_highlighting"> Week 4 - Closed Forms </h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 4</h1>
+
+    <p class="disable_text_highlighting">So as promised, the Slides are up before the end of the day. A lot of students were wondering about when the midterms are going to be marked and given back (obviously we're just kidding on piazza lol) and the truth is that we don't have a definit answer either, the plan is to do it as soon as possible.
+    In the meantime, I want to wish you guys a good luck on all of your midterms and
+    please remember, all nighters are never a good decision :).</p>
+
+    <a href="../files/Tutorial-4/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1ZB4vBruadtGU9r1-oWe9k-MovwEsd1NK2S3dCQWTjEE/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+    <a href="http://gozips.uakron.edu/~crm23/fibonacci/fibonacci.htm" target="_blank">
+        <p class="disable_text_highlighting">Fibonacci Squence Closed Form</p>
+    </a>
+
+    <a href="../files/Tutorial-4/Youtube-Videos/v1.html"class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  Week 5-->
+<!--
+<div id="week05" class="course box">
+    <h1 class="disable_text_highlighting"> Week 5 - Recurrences & Master Method </h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 5</h1>
+
+    <p class="disable_text_highlighting">Hi guys, sorry about not showing up to class this week, that being said, I left you guys in the good hands of Michelle and I'm sure that she is more than capable of helping you guys out. To all the students that met me in Michelle's class, welcome! feel free to use all resources presented here.</p>
+
+    <a href="../files/Tutorial-5/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1NyC2aoXlLQX2Lw63L_lwRKciDiv_cFsmGFtJyUibeEs/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+
+    <a href="../files/Tutorial-5/Youtube-Videos/v1.html"class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Week 6 -->
+<!--
+<div id="week06" class="course box">
+    <h1 class="disable_text_highlighting">Week 6 - Divide and Conquer</h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 6</h1>
+
+    <p class="disable_text_highlighting">Hopefully you guys liked the competition that we had in class today, hopefully we can do more of them you know, given that you guys actually enjoy them. Not much else to say for this week :).</p>
+
+    <a href="../files/Tutorial-6/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1JHzS57YGz7wAwPhcYQ-jUUH_YxnZmu2lJY3eKJy3C6M/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+
+    <a href="../files/Tutorial-6/Youtube-Videos/v1.html"class="disable_text_highlighting">The Youtube Videos</a>
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Week 7 -->
+<!--
+<div id="week07" class="course box">
+    <h1 class="disable_text_highlighting">Week 7 - Correctness of Recursive Functions</h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 7</h1>
+
+    <p class="disable_text_highlighting">I like to call this week "review week" since after all the midterms and preperations you went through, it is now time to go over the new stuff you might have missed (not neccessarily this course). Maybe it wasn't covered by the midterm or maybe you decided to give yourself a break. Whatever the case, right now is the prefect time to prepare for the next wave, it is never too soon.</p>
+
+    <a href="../files/Tutorial-7/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1mO-0bLgQhrkLltKwPQmPBaopacuX0XH9ZVlDMEBxuHc/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+    <a href="../files/Tutorial-7/Youtube-Videos/v1.html"class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Week 8 -->
+<!--
+<div id="week08" class="course box">
+    <h1 class="disable_text_highlighting">Week 8 - Program Correctness: Take Two</h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 8</h1>
+
+    <p class="disable_text_highlighting">And that was the second test of this course and after this is just problems sets and the exam. Students were having concerns with the midterm when I talked with them last night, and a lot of people were also displeased with their experiences regarding this course in the survey that we took last week. I am here to tell you that your comments will not be unheard and I will make sure that all TAs and professors hear about them. </p>
+
+    <p class="disable_text_highlighting">Ps. sorry if the mathematical symbols are not done as well as my other slides, I didn't have much time to make the math on latex. Pss. hence why we also don't have recommended youtube videos, but since it is "take two" of program correctness, it shouldnt be an issue.</p>
+
+    <a href="../files/Tutorial-8/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1DJZJ1pdYAklxCigSjH0XYjGqxtGZXNhlpNIN5_EtCl0/edit?usp=sharing" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Week 9 -->
+<!--
+<div id="week09" class="course box">
+    <h1 class="disable_text_highlighting">Week 9 - Languages and Regular Expressions</h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 9</h1>
+
+    <p class="disable_text_highlighting"> In this week we talked about Languages and Regular Expressions and some examples that we went over together. On the second half of the class we went through the solutions to the midterm and what the outline for the marking was for us TAs.  </p>
+
+    <p class="disable_text_highlighting">Recommendation: For Regular Expressions please take a look at notes.pdf, pages 68 to 72, regex in this course is not similar to the one you're probably studying in CSC207 or anything presented online. :)</p>
+
+    <a href="../files/Tutorial-9/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://drive.google.com/open?id=1w0dt41gQKoM_7WAQ4lhsLEvWGyCOFevqeYkO67uDkNM" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Week 10 -->
+<!--
+<div id="week10" class="course box">
+    <h1 class="disable_text_highlighting">Week 10 - Developing DFA</h1>
+
+    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 10</h1>
+
+    <p class="disable_text_highlighting"> This week we talked about DFAs and that's pretty much it. Aaannnnddd this is it! The last week of classes! I hope everything I did was good enough for (if not all) most of you. Like I promised, I have found some extra work with solutions online, and hopefully they are beneficial. Wishing you guys all the best during the exam season. :)</p>
+
+
+    <a href="../files/Tutorial-10/CSC236 Tutorial Questions.pdf" target="_blank" download>
+        <p class="disable_text_highlighting">The Questions</p>
+    </a>
+
+    <a href="https://drive.google.com/open?id=1ILVEMa9vvmobEGPWCG8nqW42mi2LPQ6kBw2EPPl7aWo" target="_blank">
+        <p class="disable_text_highlighting">The Slides</p>
+    </a>
+
+    <a href="../files/Tutorial-10/Youtube-Videos/v1.html"class="disable_text_highlighting">The Youtube Videos</a>
+
+
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Extra Problems and Solutions -->
+<!--
+<div class="course box">
+
+    <h1 class="disable_text_highlighting">Extra Problems and Solutions</h1>
+
+    <h1 style="font-size:4vw" class="hint disable_text_highlighting">Exam Package</h1>
+
+    <p class="disable_text_highlighting"> Now, some of them might be helpful, and other might not be as much since other universities and institutions might do things differently. I'll try my best to keep adding to this. </p>
+
+    <a href="http://home.cc.umanitoba.ca/~thomas/Courses/InductionExamples-Solutions.pdf" target="_blank">
+        <p class="disable_text_highlighting">Induction 1</p>
+    </a>
+
+    <a href="http://www.analyzemath.com/math_induction/mathematical_induction.html" target="_blank">
+        <p class="disable_text_highlighting">Induction 2</p>
+    </a>
+
+
+    <a href="https://brilliant.org/practice/complexity-runtime-analysis-level-3/" target="_blank">
+        <p class="disable_text_highlighting">Complexity 1</p>
+    </a>
+
+    <a href="https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/" target="_blank">
+        <p class="disable_text_highlighting">Complexity 2</p>
+    </a>
+
+
+
+    <a href="http://www2.cs.arizona.edu/classes/cs345/summer14/files/reccurence_practice.pdf" target="_blank">
+        <p class="disable_text_highlighting">Closed Forms 1</p>
+    </a>
+
+
+    <a href="http://www.csd.uwo.ca/~moreno/CS433-CS9624/Resources/master.pdf" target="_blank">
+        <p class="disable_text_highlighting">Master Theorem 1</p>
+    </a>
+
+    <a href="http://courses.csail.mit.edu/6.046/spring02/handouts/mastersol.pdf" target="_blank">
+        <p class="disable_text_highlighting">Master Theorem 2</p>
+    </a>
+
+
+    <a href="http://web.cecs.pdx.edu/~dleblanc/cs350/master.pdf" target="_blank">
+        <p class="disable_text_highlighting">Master Theorem 3</p>
+    </a>
+
+    <a href="https://www.cs.toronto.edu/~amir/teaching/csc236f15/materials/lec07.pdf" target="_blank">
+        <p class="disable_text_highlighting">Correctness 1</p>
+    </a>
+
+    <p class="disable_text_highlighting"> Again, like I mentioned in class, please remember that the regular expression that is taught in class (CSC236) is different from the regular expression that is presented elsewhere. And also, all the links you see here are not a recommendation of your professors, simply the recommendation of a student who took this course years ago and found them useful.</p>
+</div>
+-->
