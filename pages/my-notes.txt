@@ -5,38 +5,6 @@
 
 
 
-<!--  Week 3-->
-<!--
-<div id="week03" class="course box">
-    <h1 class="disable_text_highlighting"> Week 3 - Runtime Analysis </h1>
-
-    <h1 style="font-size:5vw" class="hint disable_text_highlighting">week 3</h1>
-
-    <p class="disable_text_highlighting">EEYYYY, we have finally reached Runtime Analaysis. Trust me when I say that this is going to come in handy in literally (almost) every single project that you'll work on in the future. It's so important that I also did your readings before making the slides, so that I don't miss anything when I want to teach this stuff. Make sure you learn this very very well. READING WEEK, HERE WE COME!!!</p>
-
-    <a href="../files/Tutorial-3/CSC236 Tutorial Questions.pdf" target="_blank" download>
-        <p class="disable_text_highlighting">The Questions</p>
-    </a>
-
-    <a href="https://docs.google.com/presentation/d/1khCcxEw21J6W80KzYZF7WDvixrxHWGU7qnm5hWfuTbQ/edit?usp=sharing" target="_blank">
-        <p class="disable_text_highlighting">The Slides</p>
-    </a>
-
-    <a href="../files/Tutorial-3/Useful Summations.pdf" target="_blank" download>
-        <p class="disable_text_highlighting">Useful Summations</p>
-    </a>
-
-    <a href="../files/Tutorial-3/Youtube-Videos/v1.html" class="disable_text_highlighting">The Youtube Videos</a>
-
-
-</div>
--->
-
-
-
-
-
-
 
 
 
