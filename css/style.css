@@ -165,6 +165,7 @@ img {
 .box .hint{
 	color: #999999;
 	position:absolute;
+	pointer-events: none;
 
 	transition-property: color;
     transition-duration: 0.7s;
@@ -172,6 +173,7 @@ img {
 }
 .box:hover .hint{
 	color:  transparent;
+	pointer-events: none;
 
 	transition-property: color;
 	transition-duration: 0.7s;
@@ -344,6 +346,7 @@ img {
 		color: white;
 	}
 	.box:hover .hint{
+		pointer-events: none;
 		color:  transparent;
 	}
 	.navbar:hover{
