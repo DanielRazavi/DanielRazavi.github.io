@@ -297,6 +297,41 @@ img {
 /* 700px for phones only now since iPadOS will act like Desktop now. */
 /* @media only screen and (max-width: 700px) { */
 @media (hover: none) {
+
+	/* Light mode */
+	@media (prefers-color-scheme: light) {
+		body {
+			background-color: white;
+		}
+		.box{
+			background-color: rgba(255,255,255,0.5);
+			box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+			color: #999999;
+
+		}
+		.navbar{
+			background-color: #ffffff;
+			box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+		}
+	}
+
+	/* Dark mode */
+	@media (prefers-color-scheme: dark) {
+		body {
+			background-color: black;
+		}
+		.box{
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #999999;
+			box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+
+		}
+		.navbar{
+			background-color:rgb(68, 68, 68);
+			box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+		}
+	}
+
 	body{
 		/* background-color:black; */
 		color: transparent;
@@ -314,7 +349,7 @@ img {
 		padding: 25px;
 		font-size: 12px;
 		/* background-color: #4a4a4a; */
-        /* color: white ; */
+        color: white ;
     }
 	.box a{
 		color: white;
