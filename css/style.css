@@ -1,6 +1,51 @@
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+	}
+	.box{
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	.box:hover{
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+
+	}
+
+	.navbar:hover{
+		width: 400px;
+		background-color: #ffffff;
+		box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+	}
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+	}
+	
+	.box{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.box:hover{
+		background-color: rgba(131, 131, 131, 0.5);
+	    box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+
+	}
+
+	.navbar:hover{
+		width: 400px;
+		background-color:rgb(68, 68, 68);
+	    box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+	}
+}
+
+
 /* Global Attributes */
 body{
-	background-color: transparent;
 	color: transparent;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
@@ -44,7 +89,7 @@ img {
 /* Box */
 /* The abstraction that keeps all Containing relative information around the website */
 .box{
-    background-color: rgba(255,255,255,0.5);
+    /* background-color: rgba(255,255,255,0.5); */
     padding: 40px;
     max-width: 600px;
 
@@ -60,8 +105,8 @@ img {
 	transition-delay: 0.3s;
 }
 .box:hover{
-    background-color: #ffffff;
-    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    /* background-color: #ffffff; */
+    /* box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5); */
     color: #999999;
 
 	transition-property: all;
@@ -209,8 +254,8 @@ img {
 }
 .navbar:hover{
     width: 400px;
-    background-color: #ffffff;
-    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+    /* background-color: #ffffff;
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5); */
 
 	transition-property: box-shadow, background-color, width;
 	transition-duration: 1s,1s,0.7s;
@@ -253,7 +298,7 @@ img {
 /* @media only screen and (max-width: 700px) { */
 @media (hover: none) {
 	body{
-		background-color:black;
+		/* background-color:black; */
 		color: transparent;
 		font-family:Arial, Helvetica, sans-serif;
 		font-size:12px;
@@ -268,8 +313,8 @@ img {
 		width: 90%;
 		padding: 25px;
 		font-size: 12px;
-		background-color: #4a4a4a;
-        color: white ;
+		/* background-color: #4a4a4a; */
+        /* color: white ; */
     }
 	.box a{
 		color: white;
@@ -308,7 +353,7 @@ img {
 
 		margin: auto;
 		width: 80%;
-		background-color: #4a4a4a;
+		/* background-color: #4a4a4a; */
 
 		margin-top:30px;
 	}
@@ -321,7 +366,7 @@ img {
 	}
 
 	/* Eliminating mouse hover */
-	.box:hover{
+	/* .box:hover{
 		background-color: #4a4a4a;
 		color: white;
 	}
@@ -355,7 +400,7 @@ img {
 	}
 	.mail_sub:hover + .mail_err_msg{
 		color: white;
-	}
+	} */
 
 	/* Youtube Embed fitting in phone screen */
 	.video-container {
