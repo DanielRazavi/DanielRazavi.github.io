@@ -5,9 +5,12 @@
 	}
 	.box{
 		background-color: rgba(255,255,255,0.5);
+		border-color: #999999;
+
 	}
 
 	.box:hover{
+		color: #999999;
 		background-color: rgba(255,255,255,0.5);
 		box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
 
@@ -17,6 +20,10 @@
 		width: 400px;
 		background-color: #ffffff;
 		box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+	}
+
+	.no_box_mid_txt{
+		color: #999999;
 	}
 }
 
@@ -28,9 +35,12 @@
 	
 	.box{
 		background-color: rgba(0, 0, 0, 0.5);
+		border-color: #999999;
+
 	}
 	
 	.box:hover{
+		color: #999999;
 		background-color: rgba(131, 131, 131, 0.5);
 	    box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
 
@@ -40,6 +50,10 @@
 		width: 400px;
 		background-color:rgb(68, 68, 68);
 	    box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+	}
+
+	.no_box_mid_txt{
+		color: #999999;
 	}
 }
 
@@ -94,7 +108,7 @@ img {
     max-width: 600px;
 
     border-radius: 15px;
-	border-color: #999999;
+	/* border-color: #999999; */
 
     border-style: solid;
     border-width: 1px;
@@ -105,10 +119,6 @@ img {
 	transition-delay: 0.3s;
 }
 .box:hover{
-    /* background-color: #ffffff; */
-    /* box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5); */
-    color: #999999;
-
 	transition-property: all;
 	transition-duration: 1s;
 	transition-delay: 0.3s;
@@ -305,13 +315,15 @@ img {
 		}
 		.box{
 			background-color: rgba(255,255,255,0.5);
-			box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
 			color: #999999;
 
 		}
+		.box a{
+			color: #999999;
+		}
 		.navbar{
-			background-color: #ffffff;
-			box-shadow: 0 5px 35px 0px rgba(0,0,0,0.5);
+			background-color: white;
+			color: #999999;
 		}
 	}
 
@@ -323,12 +335,15 @@ img {
 		.box{
 			background-color: rgba(0, 0, 0, 0.5);
 			color: #999999;
-			box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
 
 		}
+		.box a{
+			color: #999999;
+		}
+
 		.navbar{
-			background-color:rgb(68, 68, 68);
-			box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.5);
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #999999;
 		}
 	}
 
@@ -349,11 +364,9 @@ img {
 		padding: 25px;
 		font-size: 12px;
 		/* background-color: #4a4a4a; */
-        color: white ;
-    }
-	.box a{
-		color: white;
+        /* color: white ; */
 	}
+	/* 
 	.box input[type=text] {
 		width: 85%;
 		background-color: black;
@@ -368,6 +381,7 @@ img {
 		background-color: #363636;
 		color: #ffffff;
 	}
+	*/
 	.box .hint{
 		color:  transparent;
 
@@ -392,13 +406,13 @@ img {
 
 		margin-top:30px;
 	}
-	.mail_err_msg{
+	/* .mail_err_msg{
 		color: white;
 	}
 	.mail_sub{
 		margin: 7.5% auto -5%;
 		text-align: center;
-	}
+	} */
 
 	/* Eliminating mouse hover */
 	/* .box:hover{
