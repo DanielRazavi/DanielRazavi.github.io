@@ -157,6 +157,7 @@ img {
 	box-sizing: border-box;
 	text-align: center;
 	color: #999999;
+	background-color: transparent;
 
 	transition-property: all;
     transition-duration: 1s;
@@ -167,7 +168,7 @@ img {
 
 	transition-property: all;
 	transition-duration: 1s;
-	transition-delay: 0.7s;
+	transition-delay: 0.3s;
 }
 
 .box input[type=text]::placeholder {
@@ -175,14 +176,58 @@ img {
 
 	transition-property: color;
 	transition-duration: 0.3s;
-	transition-delay: 0s;
+	transition-delay: 0.0s;
 }
 .box:hover input[type=text]::placeholder{
 	color: #999999;
 
 	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
+}
+
+
+.box textarea {
+	width: 50%;
+	height: 39px;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid #999999;
+	border-radius: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #999999;
+	background-color: transparent;
+	min-height: 0px;
+	resize: none;
+
+	transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.3s;
+}
+.box:hover textarea {
+	color: #999999;
+	min-height: 100px;
+
+	transition-property: all;
+	transition-duration: 1.3s;
+	transition-delay: 0.0s;
+}
+
+.box textarea::placeholder {
+  	color:  transparent;
+
+	transition-property: color;
 	transition-duration: 0.3s;
 	transition-delay: 0s;
+}
+.box:hover textarea::placeholder{
+	color: #999999;
+	min-height: 100px;
+
+	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
 }
 
 .box input[type=submit] {
@@ -198,15 +243,15 @@ img {
 
 
 	transition-property: color, background-color;
-    transition-duration: 0.6s, 0.6s;
-    transition-delay: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.6s;
+    transition-delay: 0.0s, 0.3s;
 }
 .box:hover input[type=submit]{
 	color: #999999;
 
-	transition-property: color;
-	transition-duration: 0.6s;
-	transition-delay: 0.3s;
+	transition-property: color, background-color;
+	transition-duration: 0.6s, 0.6s;
+	transition-delay: 0.3s, 0.3s;
 }
 .box:hover input[type=submit]:hover{
 	background-color: #999999;
