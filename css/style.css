@@ -409,8 +409,6 @@ img {
 		width: 90%;
 		padding: 25px;
 		font-size: 12px;
-		/* background-color: #4a4a4a; */
-        /* color: white ; */
 	}
 	
 	.box input[type=text] {
@@ -458,56 +456,9 @@ img {
 		height: 100%;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
-
 		margin: auto;
 		width: 80%;
-		/* background-color: #4a4a4a; */
-
 		margin-top:30px;
-	}
-	/* .mail_err_msg{
-		color: white;
-	}
-	.mail_sub{
-		margin: 7.5% auto -5%;
-		text-align: center;
-	} */
-
-	/* Eliminating mouse hover */
-	.box:hover{
-		background-color: #4a4a4a;
-		color: white;
-	}
-	.box:hover a{
-		color: white;
-	}
-	.box:hover a:hover{
-		color: white;
-	}
-	.box:hover input[type=text]{
-		border: 1px solid #999999;
-		color: #999999;
-	}
-	.box:hover input[type=text]::placeholder{
-		color: #999999;
-	}
-	.box:hover input[type=submit]{
-		color: white;
-	}
-	.box:hover input[type=submit]:hover{
-		background-color: #363636;
-		color: white;
-	}
-	.box:hover .hint{
-		pointer-events: none;
-		color:  transparent;
-	}
-	.navbar:hover{
-		width: 80%;
-	    background-color: #4a4a4a;
-	}
-	.mail_sub:hover + .mail_err_msg{
-		color: white;
 	}
 
 	/* Youtube Embed fitting in phone screen */
