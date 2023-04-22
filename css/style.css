@@ -108,7 +108,6 @@ img {
     max-width: 600px;
 
     border-radius: 15px;
-	/* border-color: #999999; */
 
     border-style: solid;
     border-width: 1px;
@@ -328,7 +327,32 @@ img {
 	min-height: 200px;
 	margin: auto;
 	margin-top: 30px;
+	transition-delay: 5s;
 }
+.course:hover {
+	transform: translateX(-300px);
+	transition-duration: 1s;
+}
+.course .hint{
+	transition-delay: 5s;
+}
+.course a{
+	transition-delay: 5s;
+}
+.course img{
+	display:  none;
+	transform: translateX(600px);
+	transition-duration: 3s;
+}
+.course:hover img{
+	display: inline-block;
+	transition-property: color, opacity;
+    transition-duration: 0.7s, 0.7s;
+    transition-delay: 1.0s, 0.0s;
+	transition-timing-function: ease, ease-in-out;
+	transform: translateX(600px);
+}
+
 
 .mail_err_msg{
 	color:  transparent;
