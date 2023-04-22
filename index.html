@@ -20,6 +20,30 @@
   <div class="main box">
 		<h1 style="font-size:4vw" class="hint disable_text_highlighting">Blank.</h1>
 
+
+		<script>
+			function timeout(ms) {
+			    return new Promise(resolve => setTimeout(resolve, ms));
+			}
+
+			var mainTitle = document.querySelector(".main.box .hint");
+	
+			const interval = setInterval(async function() {
+				mainTitle.style.opacity = 0;
+				await timeout(700);
+				mainTitle.innerHTML = "Hover...";
+				mainTitle.style.opacity = 1;
+				
+				await timeout(1700);
+				
+				mainTitle.style.opacity = 0;
+				await timeout(700);
+				mainTitle.innerHTML = "Blank.";
+				mainTitle.style.opacity = 1;
+			 }, 10000); 
+		</script>
+
+
 		<h1 class="disable_text_highlighting">hi.</h1>
 
 		<p class="disable_text_highlighting">My name is Daniel Razavi and this is my little place on the web.  A little about me is that I've attended University of Toronto for Computer Science, Mathematics and Statistics. I love taking photos, making some great playlists and putting together puzzles of any and all kinds. In a sea of projects that I've had to do, I'm trying to prioritize the projects I love/want to do. Hopefully this place can be a place where I can showcase my projects and honestly anything else I feel like putting. By the way this place is always under construction, so if a button doesn't work or any other weird thing, email me and let me know :D</p>
