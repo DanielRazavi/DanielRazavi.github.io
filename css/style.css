@@ -76,6 +76,11 @@ img {
     width: 50%;
     border-radius: 15px;
 }
+
+.githubThumbnail {
+	border-radius: 6px;
+}
+
 .disable_text_highlighting {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none; /* Webkit */
@@ -348,7 +353,7 @@ img {
 }
 .course:hover img{
 	left: 110%;
-	bottom: 30%;
+	bottom: 20%;
 	opacity: 100%;
 	transition-delay: 0.3s;
 }
