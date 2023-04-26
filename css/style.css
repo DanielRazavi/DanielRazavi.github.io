@@ -330,8 +330,7 @@ img {
 	transition-delay: 5s;
 }
 .course:hover {
-	transform: translateX(-300px);
-	transition-duration: 1s;
+	transform: translateX(-200px);
 }
 .course .hint{
 	transition-delay: 5s;
@@ -340,17 +339,18 @@ img {
 	transition-delay: 5s;
 }
 .course img{
-	display:  none;
-	transform: translateX(600px);
-	transition-duration: 3s;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	opacity: 0%;
+	transition: 1s 5s;
+	width: auto;
 }
 .course:hover img{
-	display: inline-block;
-	transition-property: color, opacity;
-    transition-duration: 0.7s, 0.7s;
-    transition-delay: 1.0s, 0.0s;
-	transition-timing-function: ease, ease-in-out;
-	transform: translateX(600px);
+	left: 110%;
+	bottom: 30%;
+	opacity: 100%;
+	transition-delay: 0.3s;
 }
 
 
