@@ -235,6 +235,31 @@ img {
 	transition-delay: 0.3s;
 }
 
+.box button{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid transparent;
+	border-radius: 8px;
+    background-color:  transparent;
+    color:  transparent;
+    cursor: pointer;
+	/* transition: color, 0.3s, 0s; */
+	transition: all 1s 0.3s;
+}
+.box:hover button{
+	color: #999999;
+	border: 1px solid #999999;
+	transition: all 1s 0.3s;
+}
+
+.box:hover button:hover{
+	background-color: #999999;
+	color: #ffffff;
+
+	transition: all 0.6s 0.0s;
+}
+
 .box input[type=submit] {
 	-webkit-appearance: none;
     width: 50%;
