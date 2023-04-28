@@ -1,19 +1,38 @@
 $(function() {
     $('head').append('<link rel="stylesheet" href="newstyle.css" type="text/css" />');
 
-    $("#mainbox")
-        .addClass("main box")
-        .css({
+    $("#mainbox").addClass("main box").css({
             'color': '#999999',
             'background-color': 'rgba(255,255,255,0.5)',
             'box-shadow': '0 5px 35px 0px rgba(0,0,0,0.5)'
         });
     
+
+
     $(".hint").css({
         'color': '#999999',
-        'position':'absolute'
+        'position':'absolute',
+        'font-size':'4vw'
     }).hide();
    
+    function timeout(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    setInterval(async function() {
+        $(".hint").animate({opacity: "0.0"}, 700, "linear");
+        await timeout(700);
+        $(".hint").html("Hover...");
+        $(".hint").animate({opacity: "1.0"}, 1000, "linear");
+        await timeout(3400);
+        $(".hint").animate({opacity: "0.0"}, 700, "linear");
+        await timeout(700);
+        $(".hint").html("Blank.");
+        $(".hint").animate({opacity: "1.0"}, 1000, "linear");
+     }, 10000); 
+
+
+
     $("#navbar").addClass("box navbar");
    
     $("button").css({
@@ -28,27 +47,29 @@ $(function() {
     });
 
     $("#mainbox").hover(function(){
-        $("#mainbox > :not(.hint)").animate({
-            opacity: "1",
-        }, 1000, "swing").delay(300);
-
-        $(".hint").fadeOut(1000, "swing").delay(300);
+        
+        $(".hint").fadeOut(300, "linear");
 
         $("#mainbox").css({
             "box-shadow": "0 5px 35px 0px rgba(0,0,0,0.5)",
-            "transition": "1s 0.3s linear"
+            "transition": "1s 0.4s linear"
         })
-    }, function(){
-        $("#mainbox > :not(.hint)").animate({
-            opacity: "0.0"
-        }, 750, "swing").delay(300);
 
-        $(".hint").fadeIn(750, "swing").delay(300);
-        
+        $("#mainbox > :not(.hint)").delay(400).animate({
+            opacity: "1",
+        }, 1000, "linear");
+
+    }, function(){
         $("#mainbox").css({
             "box-shadow": "0 5px 35px 0px rgba(255, 255, 255, 0.5)",
-            "transition": "1s 0.3s linear"
-        })
+            "transition": "1s 0.5s linear"
+        });
+        
+        $("#mainbox > :not(.hint)").delay(500).animate({
+            opacity: "0.0"
+        }, 1000, "linear");
+
+        $(".hint").delay(1600).fadeIn(300, "linear");
     
     });
 
