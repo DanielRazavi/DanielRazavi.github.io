@@ -47,38 +47,7 @@ img {
     border-radius: 15px;
 }
 
-.githubThumbnail {
-	border-radius: 6px;
-}
-
-.disable_text_highlighting {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none; /* Webkit */
-	-moz-user-select: none;    /* Firefox */
-	-ms-user-select: none;     /* IE 10  */
-	/* Currently not supported in Opera but will be soon */
-	-o-user-select: none;
-	user-select: none;
-}
-.isDisabled {
-	color: currentColor;
-	cursor: not-allowed;
-	opacity: 0.5;
-	text-decoration: none;
-}
-
-/* "Random Note" texts */
-/* for disclaimers and little notes here and there */
-.no_box_mid_txt{
-	color: #999999;
-	margin: 100px auto 0px;
-	text-align: center;
-}
-
-/* Box */
-/* The abstraction that keeps all Containing relative information around the website */
 .box{
-    /* background-color: rgba(255,255,255,0.5); */
     padding: 40px;
     max-width: 600px;
 
@@ -89,11 +58,23 @@ img {
     box-sizing: border-box;
 }
 
-.box a{
-    font-size: 12px;
-    text-decoration: none;
-    color:  transparent;
+.box .hint{
+	color: #999999;
+	position:absolute;
+	pointer-events: none;
+	font-size: 4vw;
 }
+
+.box button{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid transparent;
+	border-radius: 8px;
+    background-color:  transparent;
+    color:  transparent;
+    cursor: pointer;
+}	
 
 .box input[type=text] {
 	width: 50%;
@@ -107,12 +88,9 @@ img {
 	background-color: transparent;
 }
 
-
 .box input[type=text]::placeholder {
   	color:  transparent;
 }
-
-
 
 .box textarea {
 	width: 50%;
@@ -134,19 +112,6 @@ img {
   	color:  transparent;
 }
 
-.box button{
-	width: 50%;
-	padding: 12px 20px;
-	margin: 15px 0;
-	border: 1px solid transparent;
-	border-radius: 8px;
-    background-color:  transparent;
-    color:  transparent;
-    cursor: pointer;
-}
-
-
-
 .box input[type=submit] {
 	-webkit-appearance: none;
     width: 50%;
@@ -157,20 +122,6 @@ img {
     background-color:  transparent;
     color:  transparent;
     cursor: pointer;
-}
-
-
-
-.box .hint{
-	color: #999999;
-	position:absolute;
-	pointer-events: none;
-}
-
-/* CSS for Beta/New/Undecided features */
-.icon{
-	padding-right: 10px;
-	width: 100px;
 }
 
 /* Navigation Bar */
@@ -189,24 +140,6 @@ img {
 .navbar a{
     display: table-cell;
     text-align: center;
-}
-
-/* Specific Box Instances */
-.main{
-	margin: 15% auto 15%;
-	text-align: center;
-}
-.course{
-	min-height: 200px;
-	margin: auto;
-	margin-top: 30px;
-}
-.course img{
-	position: absolute;
-	left: 0%;
-	bottom: 0%;
-	opacity: 0%;
-	width: auto;
 }
 
 /* 700px for phones only now since iPadOS will act like Desktop now. */
