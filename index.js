@@ -1,13 +1,11 @@
 $(function() {
-    $('head').append('<link rel="stylesheet" href="newstyle.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="style.css" type="text/css" />');
 
     $("#mainbox").addClass("box").css({
-            'margin': '15% auto 15%',
+            'margin': '15% auto',
 	        'text-align': 'center',
-            'color': 'transparent',
-            'background-color': 'rgba(255,255,255,0.5)',
-            'box-shadow': '0 5px 35px 0px rgba(255, 255, 255, 0.5)'
         });
+
     $(".hint").addClass("hint");
     function timeout(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));

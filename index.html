@@ -1,71 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="apple-touch-icon" sizes="180x180" href="./tab-icon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./tab-icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./tab-icon/favicon-16x16.png">
-	<link rel="manifest" href="./tab-icon/site.webmanifest">
-	<link rel="mask-icon" href="./tab-icon/safari-pinned-tab.svg" color="#ffc40d">
+    <head>
+        <title>Dan's Page</title>
+    </head>
+    <body>
+        <div id="mainbox">
+            <h1 class="hint">Blank.</h1>
+            <h1>hi.</h1>
+            <p>My name is Daniel Razavi and this is my little place on the web.  A little about me is that I've attended University of Toronto for Computer Science, Mathematics and Statistics. I love taking photos, making some great playlists and putting together puzzles of any and all kinds. In a sea of projects that I've had to do, I'm trying to prioritize the projects I love/want to do. Hopefully this place can be a place where I can showcase my projects and honestly anything else I feel like putting. By the way this place is always under construction, so if a button doesn't work or any other weird thing, email me and let me know :D</p>
+            <button>Write me a mail.</button>
+        </div>
 
-	<meta name="msapplication-TileColor" content="#ffc40d">
-	<meta name="msapplication-TileImage" content="./tab-icon/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+        <div id="navbar">
+            <a href="./pages/Photos.html">Photos</a>
+            <a href="./pages/Tutorials.html">Tutorials</a>
+            <a href="./pages/Projects.html">Projects</a>
+            <a href="https://www.youtube.com/channel/UC_Qf_qMb1DbiT4pknZNTn0A?view_as=subscriber">YouTube</a>
+        </div>
 
-	<title>Dan's Page</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
-</head>
-<body>
-
-  <div class="main box">
-		<h1 style="font-size:4vw" class="hint disable_text_highlighting">Blank.</h1>
-
-
-		<script>
-			function timeout(ms) {
-			    return new Promise(resolve => setTimeout(resolve, ms));
-			}
-
-			var mainTitle = document.querySelector(".main.box .hint");
-	
-			const interval = setInterval(async function() {
-				mainTitle.style.opacity = 0;
-				await timeout(700);
-				mainTitle.innerHTML = "Hover...";
-				mainTitle.style.opacity = 1;
-				
-				await timeout(1700);
-				
-				mainTitle.style.opacity = 0;
-				await timeout(700);
-				mainTitle.innerHTML = "Blank.";
-				mainTitle.style.opacity = 1;
-			 }, 10000); 
-		</script>
-
-
-		<h1 class="disable_text_highlighting">hi.</h1>
-
-		<p class="disable_text_highlighting">My name is Daniel Razavi and this is my little place on the web.  A little about me is that I've attended University of Toronto for Computer Science, Mathematics and Statistics. I love taking photos, making some great playlists and putting together puzzles of any and all kinds. In a sea of projects that I've had to do, I'm trying to prioritize the projects I love/want to do. Hopefully this place can be a place where I can showcase my projects and honestly anything else I feel like putting. By the way this place is always under construction, so if a button doesn't work or any other weird thing, email me and let me know :D</p>
-		
-		<button onclick="window.location.href='mailto:danraz1376@gmail.com';">
-			Write me a mail.
-		</button>
-
-	</div>
-
-	<!-- test test -->
-
-	<div class="box navbar">
-		<!-- <a class="isDisabled disable_text_highlighting" href="">Music</a> -->
-		<a class="disable_text_highlighting" href="./pages/Photos.html">Photos</a>
-		<a class="disable_text_highlighting" href="./pages/Tutorials.html">Tutorials</a>
-		<a class="disable_text_highlighting" href="./pages/Projects.html">Projects</a>
-		<a class="disable_text_highlighting" href="https://www.youtube.com/channel/UC_Qf_qMb1DbiT4pknZNTn0A?view_as=subscriber">YouTube</a>
-
-	</div>
-
-
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
 
 </html>
