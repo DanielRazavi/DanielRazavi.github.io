@@ -18,7 +18,7 @@ $(function() {
         await timeout(3400);
         $(".hint").animate({opacity: "0.0"}, 700, "linear");
         await timeout(700);
-        $(".hint").html("Blank.");
+        $(".hint").html("Photos.");
         $(".hint").animate({opacity: "1.0"}, 1000, "linear");
     }, 10000);
     $("#mainbox").hover(function(){
@@ -66,7 +66,7 @@ $(function() {
         });
     });
     $("button").on("click", function(){
-        window.location.href='mailto:danraz1376@gmail.com';
+        window.location.href='https://www.instagram.com/roundglasses/';
     });
 
     $("#navbar").addClass("box navbar");
@@ -98,7 +98,7 @@ $(function() {
         
         $(this).css({
             'width': '100px',
-            'background-color': 'transparent',
+            'background-color': 'rgba(255,255,255,0.5)',
 		    'box-shadow': '0 5px 35px 0px rgba(255, 255, 255, 0.5)',
             "transition": "1s 0.6s"
         }); 
