@@ -124,6 +124,11 @@ img {
     cursor: pointer;
 }
 
+.project{
+	margin: 30px auto;
+	transition-delay: 5s;
+}
+
 /* Navigation Bar */
 .navbar{
     margin: auto;
