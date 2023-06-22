@@ -156,6 +156,12 @@ $(function() {
 
     // });
 
+    // iFrame Container
+    $(".iframe-container").css({
+        "margin": "15% auto 15%",
+	    "text-align": "center",
+
+    });
 
     // Navigation Box
     $("#navbar > a").css({
