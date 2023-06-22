@@ -125,8 +125,17 @@ img {
 }
 
 .project{
+	position: relative;
+	right: 0%;
 	margin: 30px auto;
-	transition-delay: 5s;
+}
+
+.project img{
+	opacity: 0%;
+	position: absolute;
+	/* left: 0%;
+	bottom: 0%; */
+	width: auto;
 }
 
 /* Navigation Bar */
