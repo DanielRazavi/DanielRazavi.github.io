@@ -1,6 +1,6 @@
-import Navbar from "./Navbar";
-import HomePage from "./HomePage";
-import PhotosPage from "./PhotosPage";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
+import PhotosPage from "./pages/PhotosPage";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

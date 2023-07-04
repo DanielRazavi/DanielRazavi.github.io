@@ -1,4 +1,4 @@
-import Box from "./Box";
+import Box from "../components/Box";
 
 function HomePage() {
   const body =
