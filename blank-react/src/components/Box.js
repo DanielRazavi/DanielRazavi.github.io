@@ -5,14 +5,10 @@ const Box = ({ hint, title, body, images, buttons }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleHover = () => {
-    console.log("hovered");
-    console.log({ boxClassName });
     setIsHovered(true);
   };
 
   const handleLeave = () => {
-    console.log("not hovered");
-    console.log({ boxClassName });
     setIsHovered(false);
   };
 
