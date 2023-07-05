@@ -1,0 +1,15 @@
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 10%;
+  border-radius: 15px;
+  opacity: 0.5;
+  transition: 1s 0s;
+}
+
+.image.hovered {
+  opacity: 1;
+  transition: 1s 0s;
+}

@@ -1,31 +1,5 @@
 import Box from "../components/Box";
-import image1 from "../assets/Images/test1.JPG";
-import image2 from "../assets/Images/test2.JPG";
-import image3 from "../assets/Images/test3.JPG";
-import image4 from "../assets/Images/test4.JPG";
-import image5 from "../assets/Images/test5.JPG";
-import image6 from "../assets/Images/test6.JPG";
-import image7 from "../assets/Images/test7.JPG";
-import image8 from "../assets/Images/test8.JPG";
-import image9 from "../assets/Images/test9.JPG";
-import image10 from "../assets/Images/test10.JPG";
-import image11 from "../assets/Images/test11.JPG";
-import image12 from "../assets/Images/test12.JPG";
-import image13 from "../assets/Images/test13.JPG";
-import image14 from "../assets/Images/test14.JPG";
-import image15 from "../assets/Images/test15.JPG";
-import image16 from "../assets/Images/test16.JPG";
-import image17 from "../assets/Images/test17.JPG";
-import image18 from "../assets/Images/test18.JPG";
-import image19 from "../assets/Images/test19.JPG";
-import image20 from "../assets/Images/test20.JPG";
-import image21 from "../assets/Images/test21.JPG";
-import image22 from "../assets/Images/test22.JPG";
-import image23 from "../assets/Images/test23.JPG";
-import image24 from "../assets/Images/test24.JPG";
-import image25 from "../assets/Images/test25.JPG";
-import image26 from "../assets/Images/test26.JPG";
-import image27 from "../assets/Images/test27.JPG";
+import ImageComponent from "../components/Image";
 
 function PhotosPage() {
   const body =
@@ -44,33 +18,33 @@ function PhotosPage() {
         buttons={buttons}
       />
 
-      <img src={image1} alt="ax 1" />
-      <img src={image2} alt="ax 2" />
-      <img src={image3} alt="ax 3" />
-      <img src={image4} alt="ax 4" />
-      <img src={image5} alt="ax 5" />
-      <img src={image6} alt="ax 6" />
-      <img src={image7} alt="ax 7" />
-      <img src={image8} alt="ax 8" />
-      <img src={image9} alt="ax 9" />
-      <img src={image10} alt="ax 10" />
-      <img src={image11} alt="ax 11" />
-      <img src={image12} alt="ax 12" />
-      <img src={image13} alt="ax 13" />
-      <img src={image14} alt="ax 14" />
-      <img src={image15} alt="ax 15" />
-      <img src={image16} alt="ax 16" />
-      <img src={image17} alt="ax 17" />
-      <img src={image18} alt="ax 18" />
-      <img src={image19} alt="ax 19" />
-      <img src={image20} alt="ax 20" />
-      <img src={image21} alt="ax 21" />
-      <img src={image22} alt="ax 22" />
-      <img src={image23} alt="ax 23" />
-      <img src={image24} alt="ax 24" />
-      <img src={image25} alt="ax 25" />
-      <img src={image26} alt="ax 26" />
-      <img src={image27} alt="ax 27" />
+      <ImageComponent path="test1.JPG" alt="ax1" />
+      <ImageComponent path="test2.JPG" alt="ax2" />
+      <ImageComponent path="test3.JPG" alt="ax3" />
+      <ImageComponent path="test4.JPG" alt="ax4" />
+      <ImageComponent path="test5.JPG" alt="ax5" />
+      <ImageComponent path="test6.JPG" alt="ax6" />
+      <ImageComponent path="test7.JPG" alt="ax7" />
+      <ImageComponent path="test8.JPG" alt="ax8" />
+      <ImageComponent path="test9.JPG" alt="ax9" />
+      <ImageComponent path="test10.JPG" alt="ax10" />
+      <ImageComponent path="test11.JPG" alt="ax11" />
+      <ImageComponent path="test12.JPG" alt="ax12" />
+      <ImageComponent path="test13.JPG" alt="ax13" />
+      <ImageComponent path="test14.JPG" alt="ax14" />
+      <ImageComponent path="test15.JPG" alt="ax15" />
+      <ImageComponent path="test16.JPG" alt="ax16" />
+      <ImageComponent path="test17.JPG" alt="ax17" />
+      <ImageComponent path="test18.JPG" alt="ax18" />
+      <ImageComponent path="test19.JPG" alt="ax19" />
+      <ImageComponent path="test20.JPG" alt="ax20" />
+      <ImageComponent path="test21.JPG" alt="ax21" />
+      <ImageComponent path="test22.JPG" alt="ax22" />
+      <ImageComponent path="test23.JPG" alt="ax23" />
+      <ImageComponent path="test24.JPG" alt="ax24" />
+      <ImageComponent path="test25.JPG" alt="ax25" />
+      <ImageComponent path="test26.JPG" alt="ax26" />
+      <ImageComponent path="test27.JPG" alt="ax27" />
     </div>
   );
 }
