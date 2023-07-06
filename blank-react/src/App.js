@@ -3,12 +3,7 @@ import HomePage from "./pages/HomePage";
 import PhotosPage from "./pages/PhotosPage";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 function App() {
   const location = useLocation();
