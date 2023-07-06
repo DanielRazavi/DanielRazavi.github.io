@@ -1,4 +1,5 @@
 import Box from "../components/Box";
+import AnimatedPage from "./AnimatedPage";
 
 function HomePage() {
   const body =
@@ -9,9 +10,11 @@ function HomePage() {
   ];
 
   return (
-    <div className="homePage">
-      <Box hint="Blank." title="hi." body={body} buttons={buttons} />
-    </div>
+    <AnimatedPage>
+      <div className="homePage">
+        <Box hint="Blank." title="hi." body={body} buttons={buttons} />
+      </div>
+    </AnimatedPage>
   );
 }
 
