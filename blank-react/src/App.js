@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import PhotosPage from "./pages/PhotosPage";
+import TutorialPage from "./pages/TutorialPage";
+import CSCC01 from "./pages/CSCC01";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -14,6 +16,8 @@ function App() {
           <Routes key={location.pathname} location={location}>
             <Route path="/" element={<HomePage />} />
             <Route path="/photos" element={<PhotosPage />} />
+            <Route exact path="/tutorials" element={<TutorialPage />} />
+            <Route exact path="/tutorials/cscc01" element={<CSCC01 />} />
           </Routes>
         </AnimatePresence>
       </div>

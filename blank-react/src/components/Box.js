@@ -32,13 +32,15 @@ const Box = ({ hint, title, body, images, buttons }) => {
       )}
 
       {buttons && (
-        <div className="box-buttons">
+        <>
           {buttons.map((button, index) => (
-            <a key={index} href={button.href}>
-              <button>{button.label}</button>
-            </a>
+            <div key="box-buttons">
+              <a href={button.href}>
+                <button>{button.label}</button>
+              </a>
+            </div>
           ))}
-        </div>
+        </>
       )}
     </div>
   );

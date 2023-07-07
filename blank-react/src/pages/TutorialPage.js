@@ -1,0 +1,28 @@
+import Box from "../components/Box";
+import AnimatedPage from "./AnimatedPage";
+
+function TutorialPage() {
+  const body =
+    "You've made it here! First Question though, where do you know me from? :)";
+
+  const buttons = [
+    { label: "CSC236.", href: "/" },
+    { label: "CSCC01.", href: "/tutorials/cscc01" },
+    { label: "CSC384.", href: "/" },
+  ];
+
+  return (
+    <AnimatedPage>
+      <div className="homePage">
+        <Box
+          hint="Tutorials."
+          title="You're One of My Students? Welcome!"
+          body={body}
+          buttons={buttons}
+        />
+      </div>
+    </AnimatedPage>
+  );
+}
+
+export default TutorialPage;
