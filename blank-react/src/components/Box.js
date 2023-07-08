@@ -1,5 +1,6 @@
 import boxStyle from "./Box.module.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Box = ({ hint, title, body, images, buttons }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -22,7 +23,6 @@ const Box = ({ hint, title, body, images, buttons }) => {
       <h1 className={boxStyle.hint}>{hint}</h1>
       <h1>{title}</h1>
       <p>{body}</p>
-
       {images && (
         <div className="box-images">
           {images.map((image, index) => (
@@ -30,16 +30,35 @@ const Box = ({ hint, title, body, images, buttons }) => {
           ))}
         </div>
       )}
-
       {buttons && (
         <>
-          {buttons.map((button, index) => (
-            <div key="box-buttons">
-              <a href={button.href}>
-                <button>{button.label}</button>
-              </a>
-            </div>
-          ))}
+          {buttons.map((button, index) => {
+            let buttonComponent;
+
+            if (button.type === "Link") {
+              buttonComponent = (
+                <Link to={button.href}>
+                  <button>{button.label}</button>
+                </Link>
+              );
+            } else if (button.onClick) {
+              buttonComponent = (
+                <button onClick={button.onClick}>{button.label}</button>
+              );
+            } else {
+              buttonComponent = (
+                <a href={button.href}>
+                  <button>{button.label}</button>
+                </a>
+              );
+            }
+
+            return (
+              <div key={index} className="box-buttons">
+                {buttonComponent}
+              </div>
+            );
+          })}
         </>
       )}
     </div>

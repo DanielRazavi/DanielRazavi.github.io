@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  color: #999999;
+}
+
+.iframeContainer {
+  margin: 5% auto 15%;
+  text-align: center;
+}
+
+.youtubeDisclaimer > p,
+.youtubeDisclaimer {
+  color: #999999;
+  text-align: center;
+}

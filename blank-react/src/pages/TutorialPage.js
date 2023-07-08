@@ -6,9 +6,9 @@ function TutorialPage() {
     "You've made it here! First Question though, where do you know me from? :)";
 
   const buttons = [
-    { label: "CSC236.", href: "/" },
-    { label: "CSCC01.", href: "/tutorials/cscc01" },
-    { label: "CSC384.", href: "/" },
+    { label: "CSC236.", href: "/", type: "Link" },
+    { label: "CSCC01.", href: "/tutorials/cscc01", type: "Link" },
+    { label: "CSC384.", href: "/", type: "Link" },
   ];
 
   return (
