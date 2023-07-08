@@ -22,7 +22,9 @@ const Box = ({ hint, title, body, images, buttons }) => {
       onMouseLeave={handleLeave}>
       <h1 className={boxStyle.hint}>{hint}</h1>
       <h1>{title}</h1>
-      <p>{body}</p>
+
+      {body && body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+
       {images && (
         <div className="box-images">
           {images.map((image, index) => (
@@ -40,6 +42,12 @@ const Box = ({ hint, title, body, images, buttons }) => {
                 <Link to={button.href}>
                   <button>{button.label}</button>
                 </Link>
+              );
+            } else if (button.type === "Download" && button.href) {
+              buttonComponent = (
+                <a href={button.href} download>
+                  <button>{button.label}</button>
+                </a>
               );
             } else if (button.onClick) {
               buttonComponent = (

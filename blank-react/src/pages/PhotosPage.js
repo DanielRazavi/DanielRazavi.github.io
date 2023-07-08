@@ -3,8 +3,9 @@ import ImageComponent from "../components/Image";
 import AnimatedPage from "./AnimatedPage";
 
 function PhotosPage() {
-  const body =
-    "lol don't take that serious, I'm actually a rookie and yeah, no clue how that photoshop thing works, but you know, its fun to just go different places and take some pics, regardless of what camera is being used, if its a phone or a really nice dslr. don't get me wrong though, I will learn all that fancy stuff in time. If you want, you can follow me on instagram :D";
+  const body = [
+    "lol don't take that serious, I'm actually a rookie and yeah, no clue how that photoshop thing works, but you know, its fun to just go different places and take some pics, regardless of what camera is being used, if its a phone or a really nice dslr. don't get me wrong though, I will learn all that fancy stuff in time. If you want, you can follow me on instagram :D",
+  ];
 
   const buttons = [
     { label: "My Instagram.", href: "https://www.instagram.com/roundglasses/" },

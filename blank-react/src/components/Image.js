@@ -7,7 +7,7 @@ function ImageComponent({ path, alt }) {
   const [imageSrc, setImageSrc] = useState("");
 
   useEffect(() => {
-    import(`../assets/Images/${path}`)
+    import(`../../public/assets/Images/${path}`)
       .then((module) => setImageSrc(module.default))
       .catch((error) => {
         console.error(`Error loading image: ${error}`);
