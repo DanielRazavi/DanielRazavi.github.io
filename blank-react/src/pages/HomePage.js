@@ -1,11 +1,11 @@
-import NewBox from "../components/NewBox";
+import Box from "../components/Box";
 import AnimatedPage from "./AnimatedPage";
 
 function HomePage() {
   return (
     <AnimatedPage>
       <div className="homePage">
-        <NewBox hint="Blank.">
+        <Box hint="Blank.">
           <h1>hi.</h1>
           <p>
             My name is Daniel Razavi and this is my little place on the web. A
@@ -22,7 +22,7 @@ function HomePage() {
           <button type="eLink" url="mailto:danraz1376@gmail.com">
             Write me a mail.
           </button>
-        </NewBox>
+        </Box>
       </div>
     </AnimatedPage>
   );

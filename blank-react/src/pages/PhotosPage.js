@@ -1,13 +1,12 @@
-import Box from "../components/Box";
 import ImageComponent from "../components/Image";
-import NewBox from "../components/NewBox";
+import Box from "../components/Box";
 import AnimatedPage from "./AnimatedPage";
 
 function PhotosPage() {
   return (
     <AnimatedPage>
       <div className="photosPage">
-        <NewBox hint="Photos.">
+        <Box hint="Photos.">
           <h1>Yeah bro, I'm artsy.</h1>
           <p>
             lol don't take that serious, I'm actually a rookie and yeah, no clue
@@ -20,7 +19,7 @@ function PhotosPage() {
           <button type="eLink" url="https://www.instagram.com/roundglasses/">
             My Instagram.
           </button>
-        </NewBox>
+        </Box>
 
         <ImageComponent path="test1.JPG" alt="ax1" />
         <ImageComponent path="test2.JPG" alt="ax2" />

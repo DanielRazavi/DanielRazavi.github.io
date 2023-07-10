@@ -1,10 +1,10 @@
-import NewBox from "../components/NewBox";
+import Box from "../components/Box";
 import AnimatedPage from "./AnimatedPage";
 
 function CSC236() {
   return (
     <AnimatedPage>
-      <NewBox hint="CSC236.">
+      <Box hint="CSC236.">
         <h1>Welcome to CSC 236.</h1>
         <p>
           Welcome to Introduction to the Theory of Computation or as you may
@@ -32,9 +32,9 @@ function CSC236() {
           url="https://ca.bbcollab.com/guest/91f1493ba0ff46269f2cab3692a855b0">
           My Monday's 4-5 PM (TUT9107) Virtual Tutorial Room Room.
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 1.">
+      <Box hint="Week 1.">
         <h1>Week 1 - Simple Induction Examples.</h1>
         <p>
           Hi guys! My name is Daniel Razavi and on this page I like to post some
@@ -105,9 +105,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/twA6vZgX_U4?rel=0&amp;showinfo=0">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 2.">
+      <Box hint="Week 2.">
         <h1>Week 1 - Complete and Structural Induction.</h1>
         <p>
           Welcome back to week 2, obviously from the title you can see that we
@@ -166,9 +166,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/rfA0h9udl7E?rel=0&amp;showinfo=0">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 3.">
+      <Box hint="Week 3.">
         <h1>Week 3 - Runtime Analysis.</h1>
         <p>
           Sorry for being late again, I finally got a new computer so hopefully
@@ -235,9 +235,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/D6xkbGLQesk?rel=0&amp;showinfo=0">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 4.">
+      <Box hint="Week 4.">
         <h1>Week 4 - Closed Forms.</h1>
         <p>
           Okay so I'm gonna try something new, I'm gonna lowkey upload this rn
@@ -303,9 +303,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/rPQ0sCz856Q">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 5.">
+      <Box hint="Week 5.">
         <h1>Week 5 - Recurrences & Master Method.</h1>
         <p>
           Hey guys! I hope y'all had a lovely reading week and took advantage of
@@ -361,9 +361,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/rPQ0sCz856Q">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 6.">
+      <Box hint="Week 6.">
         <h1>Week 6 - Divide and Conquer.</h1>
         <p>
           Hi guys! Welcome to post test tutorial week! I hope you did well in
@@ -406,9 +406,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/PfEmF07S4hw">
           Extra Youtube Video 2
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 7.">
+      <Box hint="Week 7.">
         <h1>Week 7 - Correctness of Recursive Functions.</h1>
         <p>
           Hi guys, sorry for the late upload, I'm gonna try my best to have a
@@ -458,9 +458,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/5eGsdrdeBQ8">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 8.">
+      <Box hint="Week 8.">
         <h1>Week 8 - Program Correctness: Take Two.</h1>
         <p>
           Hi guys! Sorry for missing class this week, had to take some few days
@@ -489,9 +489,9 @@ function CSC236() {
         <button type="Video" url="https://www.youtube.com/embed/DTKcIqcCe8E">
           My Youtube Video 2
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 9.">
+      <Box hint="Week 9.">
         <h1>Week 9 - Languages and Regular Expressions.</h1>
         <p>
           Hi guys! Another month and another term test. I hope everyone had a
@@ -544,9 +544,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/r6I-Ahc0HB4">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Week 10.">
+      <Box hint="Week 10.">
         <h1>Week 10 - Developing DFA.</h1>
         <p>
           This week we talked about DFAs and that's pretty much it. Aaannnnddd
@@ -604,9 +604,9 @@ function CSC236() {
           url="https://www.youtube-nocookie.com/embed/t_zRuXaGneQ">
           Extra Youtube Video 3
         </button>
-      </NewBox>
+      </Box>
 
-      <NewBox hint="Exam Pack.">
+      <Box hint="Exam Pack.">
         <h1>Extra Problems and Solutions.</h1>
         <p>
           Now, some of them might be helpful, and other might not be as much
@@ -688,7 +688,7 @@ function CSC236() {
           the recommendation of a student who took this course years ago and
           found them useful.
         </p>
-      </NewBox>
+      </Box>
     </AnimatedPage>
   );
 }

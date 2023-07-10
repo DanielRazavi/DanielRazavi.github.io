@@ -1,12 +1,11 @@
 import Box from "../components/Box";
-import NewBox from "../components/NewBox";
 import AnimatedPage from "./AnimatedPage";
 
 function CSC384() {
   return (
     <AnimatedPage>
       <div className="csc384Page">
-        <NewBox hint="CSC384">
+        <Box hint="CSC384">
           <h1>Welcome to CSC384!</h1>
 
           <p>
@@ -20,9 +19,9 @@ function CSC384() {
           </p>
 
           <p>-Sincerely, DR :)</p>
-        </NewBox>
+        </Box>
 
-        <NewBox hint="CSC384 A1.">
+        <Box hint="CSC384 A1.">
           <h1>CSC384 Assignment 1 Announcement.</h1>
 
           <p>
@@ -98,9 +97,9 @@ function CSC384() {
             url="/assets/csc384environments/A1-Marking-Environment.zip">
             Download: A1-Marking-Environment.zip
           </button>
-        </NewBox>
+        </Box>
 
-        <NewBox hint="CSC384 A2.">
+        <Box hint="CSC384 A2.">
           <h1>CSC384 Assignment 2 Announcement.</h1>
 
           <p>
@@ -128,9 +127,9 @@ function CSC384() {
             url="/assets/csc384environments/A2-Marking-Environment.zip">
             Download: A2-Marking-Environment.zip
           </button>
-        </NewBox>
+        </Box>
 
-        <NewBox hint="CSC384 A3.">
+        <Box hint="CSC384 A3.">
           <h1>CSC384 Assignment 3 Announcement.</h1>
 
           <p>
@@ -176,9 +175,9 @@ function CSC384() {
             url="/assets/csc384environments/A3-Marking-Environment.zip">
             Download: A3-Marking-Environment.zip
           </button>
-        </NewBox>
+        </Box>
 
-        {/* <NewBox hint="CSC384 A4.">
+        {/* <Box hint="CSC384 A4.">
           <h1>CSC384 Assignment 4 Announcement.</h1>
 
           <p>
@@ -202,7 +201,7 @@ function CSC384() {
           <button type="iLink" url="/">
             Download: A4-Marking-Environment.zip
           </button>
-        </NewBox> */}
+        </Box> */}
       </div>
     </AnimatedPage>
   );

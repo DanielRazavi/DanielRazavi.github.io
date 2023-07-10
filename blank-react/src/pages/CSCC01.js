@@ -1,10 +1,10 @@
-import NewBox from "../components/NewBox";
+import Box from "../components/Box";
 import AnimatedPage from "./AnimatedPage";
 
 function CSCC01() {
   return (
     <AnimatedPage>
-      <NewBox hint="CSCC01.">
+      <Box hint="CSCC01.">
         <h1>CSCC01 Week 04.</h1>
         <p>
           Hi guys, it was really nice to meet you guys and I really appericiate
@@ -31,7 +31,7 @@ function CSCC01() {
           url="https://drive.google.com/file/d/1_wBkyqtYV1LPVeqpGQXad4a5ojSEcC64/preview">
           Cohesion and Coupling.
         </button>
-      </NewBox>
+      </Box>
     </AnimatedPage>
   );
 }
