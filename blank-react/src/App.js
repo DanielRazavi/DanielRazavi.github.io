@@ -4,6 +4,7 @@ import PhotosPage from "./pages/PhotosPage";
 import TutorialPage from "./pages/TutorialPage";
 import CSCC01 from "./pages/CSCC01";
 import CSC384 from "./pages/CSC384";
+import CSC236 from "./pages/CSC236";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/tutorials" element={<TutorialPage />} />
             <Route exact path="/tutorials/cscc01" element={<CSCC01 />} />
             <Route exact path="/tutorials/csc384" element={<CSC384 />} />
+            <Route exact path="/tutorials/csc236" element={<CSC236 />} />
           </Routes>
         </AnimatePresence>
       </div>

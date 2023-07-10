@@ -7,7 +7,7 @@ function TutorialPage() {
   ];
 
   const buttons = [
-    { label: "CSC236.", href: "/", type: "Link" },
+    { label: "CSC236.", href: "/tutorials/csc236", type: "Link" },
     { label: "CSCC01.", href: "/tutorials/cscc01", type: "Link" },
     { label: "CSC384.", href: "/tutorials/csc384", type: "Link" },
   ];

@@ -40,7 +40,7 @@
   transition: 1s 0.4s linear;
 }
 
-.box button {
+.box .button {
   opacity: 0;
   transition: 1s 0.4s linear;
   border: 1px solid transparent;
@@ -56,14 +56,14 @@
   cursor: pointer;
 }
 
-.box.hovered button {
+.box.hovered .button {
   opacity: 1;
   color: #999999;
   border: 1px solid #999999;
   transition: 1s 0.4s linear;
 }
 
-.box.hovered button:hover {
+.box.hovered .button:hover {
   color: #ffffff;
   background-color: #999999;
   border: 1px solid #999999;

@@ -6,31 +6,27 @@ const Overlay = ({ component, onClose }) => {
 
   const handleClose = () => {
     setVisible(false);
-    // Wait for the exit animation to finish before actually closing the overlay
     setTimeout(() => {
       onClose();
-    }, 700); // ms matches the duration of the exit animation
+    }, 700);
   };
 
   return (
-    <>
-      (
+    <div
+      className={`${styles.modalOverlay} ${
+        visible ? styles.enter : styles.exit
+      }`}>
       <div
-        className={`${styles.modalOverlay} ${
+        className={`${styles.modalContent} ${
           visible ? styles.enter : styles.exit
         }`}>
-        <div
-          className={`${styles.modalContent} ${
-            visible ? styles.enter : styles.exit
-          }`}>
-          <button className={styles.closeButton} onClick={handleClose}>
-            X
-          </button>
-          {component}
-        </div>
+        <h1></h1>
+        <button className={styles.closeButton} onClick={handleClose}>
+          X
+        </button>
+        {component}
       </div>
-      )
-    </>
+    </div>
   );
 };
 
