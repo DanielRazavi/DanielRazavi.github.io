@@ -31,14 +31,6 @@ function CSCC01() {
           url="https://drive.google.com/file/d/1_wBkyqtYV1LPVeqpGQXad4a5ojSEcC64/preview">
           Cohesion and Coupling.
         </button>
-
-        <button type="eLink" url="https://mcs.utm.utoronto.ca/~236/">
-          Course Website.
-        </button>
-
-        <button type="iLink" url="/">
-          Home.
-        </button>
       </NewBox>
     </AnimatedPage>
   );

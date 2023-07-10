@@ -1,25 +1,26 @@
 import Box from "../components/Box";
 import ImageComponent from "../components/Image";
+import NewBox from "../components/NewBox";
 import AnimatedPage from "./AnimatedPage";
 
 function PhotosPage() {
-  const body = [
-    "lol don't take that serious, I'm actually a rookie and yeah, no clue how that photoshop thing works, but you know, its fun to just go different places and take some pics, regardless of what camera is being used, if its a phone or a really nice dslr. don't get me wrong though, I will learn all that fancy stuff in time. If you want, you can follow me on instagram :D",
-  ];
-
-  const buttons = [
-    { label: "My Instagram.", href: "https://www.instagram.com/roundglasses/" },
-  ];
-
   return (
     <AnimatedPage>
       <div className="photosPage">
-        <Box
-          hint="Photos."
-          title="Yeah bro, I'm artsy"
-          body={body}
-          buttons={buttons}
-        />
+        <NewBox hint="Photos.">
+          <h1>Yeah bro, I'm artsy.</h1>
+          <p>
+            lol don't take that serious, I'm actually a rookie and yeah, no clue
+            how that photoshop thing works, but you know, its fun to just go
+            different places and take some pics, regardless of what camera is
+            being used, if its a phone or a really nice dslr. don't get me wrong
+            though, I will learn all that fancy stuff in time. If you want, you
+            can follow me on instagram :D
+          </p>
+          <button type="eLink" url="https://www.instagram.com/roundglasses/">
+            My Instagram.
+          </button>
+        </NewBox>
 
         <ImageComponent path="test1.JPG" alt="ax1" />
         <ImageComponent path="test2.JPG" alt="ax2" />

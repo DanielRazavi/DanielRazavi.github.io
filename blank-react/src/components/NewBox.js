@@ -50,6 +50,10 @@ const NewBox = ({ hint, children }) => {
         navigator(buttonProps.url);
       } else if (buttonProps.type === "eLink") {
         window.location.href = buttonProps.url;
+      } else if (buttonProps.type === "Download") {
+        const downloadLink = document.createElement("a");
+        downloadLink.href = buttonProps.url;
+        downloadLink.click();
       }
     }
   };
