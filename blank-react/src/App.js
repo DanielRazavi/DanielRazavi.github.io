@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import PhotosPage from "./pages/PhotosPage";
-import TutorialPage from "./pages/TutorialPage";
+import TutorialsPage from "./pages/TutorialsPage";
+import ProjectsPage from "./pages/ProjectsPage";
 import CSCC01 from "./pages/CSCC01";
 import CSC384 from "./pages/CSC384";
 import CSC236 from "./pages/CSC236";
@@ -18,10 +19,11 @@ function App() {
           <Routes key={location.pathname} location={location}>
             <Route path="/" element={<HomePage />} />
             <Route path="/photos" element={<PhotosPage />} />
-            <Route exact path="/tutorials" element={<TutorialPage />} />
+            <Route exact path="/tutorials" element={<TutorialsPage />} />
             <Route exact path="/tutorials/cscc01" element={<CSCC01 />} />
             <Route exact path="/tutorials/csc384" element={<CSC384 />} />
             <Route exact path="/tutorials/csc236" element={<CSC236 />} />
+            <Route exact path="/projects" element={<ProjectsPage />} />
           </Routes>
         </AnimatePresence>
       </div>

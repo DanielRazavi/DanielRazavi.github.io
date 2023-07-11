@@ -70,50 +70,37 @@
   transition: 0.5s linear;
 }
 
-/* .box input[type="text"] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 15px 0;
-  border: 1px solid #999999;
-  border-radius: 8px;
-  box-sizing: border-box;
-  text-align: center;
-  color: #999999;
-  background-color: transparent;
-} */
+.box .image {
+  max-width: 100%;
+  height: auto;
+  animation: fadeExit 1.4s ease-in-out forwards;
+  opacity: 0;
+}
 
-/* .box input[type="text"]::placeholder {
-  color: transparent;
-} */
+.box:hover .image {
+  opacity: 1;
+  visibility: visible;
+  animation: fadeEnter 1.4s ease-in-out forwards;
+}
 
-/* .box textarea {
-  width: 50%;
-  height: 39px;
-  padding: 12px 20px;
-  margin: 15px 0;
-  border: 1px solid #999999;
-  border-radius: 8px;
-  box-sizing: border-box;
-  text-align: center;
-  color: #999999;
-  background-color: transparent;
-  min-height: 0px;
-  resize: none;
-  overflow: hidden;
-} */
+@keyframes fadeEnter {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 
-/* .box textarea::placeholder {
-  color: transparent;
-} */
-
-/* .box input[type="submit"] {
-  -webkit-appearance: none;
-  width: 50%;
-  padding: 12px 20px;
-  margin: 15px 0;
-  border: 1px solid #999999;
-  border-radius: 8px;
-  background-color: transparent;
-  color: transparent;
-  cursor: pointer;
-} */
+@keyframes fadeExit {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

@@ -3,14 +3,14 @@ import style from "./Media.module.css";
 const Video = ({ title, url }) => {
   return (
     <div className="video-box">
-      <h1 class={style.title}>{title}</h1>
-      <div class={style.youtubeDisclaimer}>
+      <h1 className={style.title}>{title}</h1>
+      <div className={style.youtubeDisclaimer}>
         <p>
           Disclaimer: YouTube won't store information about visitors on the
           website unless they play the video.
         </p>
       </div>
-      <div class={style.iframeContainer}>
+      <div className={style.iframeContainer}>
         <iframe
           width="840"
           height="473"

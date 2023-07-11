@@ -25,7 +25,6 @@ const Box = ({ hint, children }) => {
   };
 
   const handleButtonClick = (buttonProps) => {
-    console.log(buttonProps);
     if (
       buttonProps.type === "Video" ||
       buttonProps.type === "Document" ||
@@ -87,6 +86,11 @@ const Box = ({ hint, children }) => {
               </button>
             </div>
           );
+        } else if (
+          child.type === "div" &&
+          child.props.className === "imageContainer"
+        ) {
+          return <div className={boxStyle.image}>{child.props.children}</div>;
         }
         return child;
       })}
