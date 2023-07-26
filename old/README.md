@@ -1,0 +1,1 @@
+Hi there, Welcome to the old version of blank. Kept this as an archive for it to be seen by visitors. As you can see the old version was made up of HTML, CSS, JS and jQuery. Decided to move towards React.
